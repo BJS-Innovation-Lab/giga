@@ -3,7 +3,8 @@
 export const dynamic = 'force-dynamic'
 
 import { useEffect, useState, useMemo } from 'react'
-import { getAllRecords, MedicalRecord } from '../lib/supabase'
+import { getAllRecords, MedicalRecord, getMedicos, getHorarios, Medico, Horario } from '../lib/supabase'
+import DoctorCalendar from './components/DoctorCalendar'
 
 const SEDE_ICONS: Record<string, string> = {
   'SEDE NORTE': '🏥', 'SEDE SUR': '🏨', 'SEDE ESTE': '🏩',
@@ -30,10 +31,13 @@ export default function Home() {
   const [search, setSearch] = useState('')
   const [selectedSede, setSelectedSede] = useState<string | null>(null)
   const [selectedEsp, setSelectedEsp] = useState<string | null>(null)
+  const [medicos, setMedicos] = useState<Medico[]>([])
+  const [allHorarios, setAllHorarios] = useState<Horario[]>([])
+  const [selectedDoctor, setSelectedDoctor] = useState<{ medico: Medico; horarios: Horario[] } | null>(null)
 
   useEffect(() => {
-    getAllRecords()
-      .then(setRecords)
+    Promise.all([getAllRecords(), getMedicos(), getHorarios()])
+      .then(([recs, meds, hors]) => { setRecords(recs); setMedicos(meds); setAllHorarios(hors) })
       .catch(e => setError(e.message))
       .finally(() => setLoading(false))
   }, [])
@@ -181,22 +185,43 @@ export default function Home() {
                 <h3 className="text-white font-bold flex items-center gap-2">🩺 {esp} <span className="text-cyan-100 text-sm font-normal">({docs.length})</span></h3>
               </div>
               <div className="divide-y divide-gray-50">
-                {docs.map(doc => (
-                  <div key={doc.id} className="px-5 py-3 hover:bg-cyan-50/50 transition-colors">
-                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
-                      <div>
-                        <p className="font-semibold text-gray-800">👨‍⚕️ {doc.medico}</p>
-                        <p className="text-sm text-gray-500">📍 {doc.sede}</p>
+                {docs.map(doc => {
+                  const matchedMedico = medicos.find(m => m.nombre === doc.medico)
+                  return (
+                    <div key={doc.id}
+                      onClick={() => {
+                        if (matchedMedico) {
+                          const docHorarios = allHorarios.filter(h => h.medico_id === matchedMedico.id)
+                          setSelectedDoctor({ medico: matchedMedico, horarios: docHorarios })
+                        }
+                      }}
+                      className={`px-5 py-3 transition-colors ${matchedMedico ? 'hover:bg-cyan-50/50 cursor-pointer group' : 'hover:bg-gray-50'}`}>
+                      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
+                        <div>
+                          <p className="font-semibold text-gray-800">👨‍⚕️ {doc.medico}
+                            {matchedMedico && <span className="ml-2 text-xs text-cyan-500 opacity-0 group-hover:opacity-100 transition-opacity">📅 Ver calendario</span>}
+                          </p>
+                          <p className="text-sm text-gray-500">📍 {doc.sede}</p>
+                        </div>
+                        <div className="text-sm text-gray-600 bg-gray-50 px-3 py-1 rounded-lg">🕐 {doc.horario || 'Sin horario'}</div>
                       </div>
-                      <div className="text-sm text-gray-600 bg-gray-50 px-3 py-1 rounded-lg">🕐 {doc.horario || 'Sin horario'}</div>
                     </div>
-                  </div>
-                ))}
+                  )
+                })}
               </div>
             </div>
           ))}
         </div>
       </div>
+
+      {selectedDoctor && (
+        <DoctorCalendar
+          nombre={selectedDoctor.medico.nombre}
+          especialidades={selectedDoctor.medico.especialidades}
+          horarios={selectedDoctor.horarios}
+          onClose={() => setSelectedDoctor(null)}
+        />
+      )}
     </div>
   )
 }

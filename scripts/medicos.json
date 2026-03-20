@@ -1,0 +1,1786 @@
+[
+  {
+    "id": 1,
+    "nombre": "AARON DANIEL CURIEL HERNANDEZ",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "ABRAHAM ESTEBAN LOZADA FEBRES",
+    "especialidades": [
+      "ECOGRAFIA"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "ADAMS W. PERNALETE APONTE",
+    "especialidades": [
+      "NEUROCIRUGIA"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "ADELA ANTONIETA ROSALES ROJAS",
+    "especialidades": [
+      "NUTRICIONISTA"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "ADRIANA ALEXANDRA GONZALEZ PEREZ",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "ADRIANA NASARET MELENDEZ MORGADO",
+    "especialidades": [
+      "GASTROENTEROLOGIA"
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "ADRIANA SANCHEZ",
+    "especialidades": [
+      "GASTROENTEROLOGIA",
+      "GASTROENTEROLOGA"
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "ADRIANA YELLICHE HERRERA ABAD",
+    "especialidades": [
+      "MEDICINA GENERAL Y DIABETOLOGIA"
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "ALBERTO JAVIER PALERMO",
+    "especialidades": [
+      "ECOGRAFIA"
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "ALCIDES AUGUSTO MARCANO",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "ALENA RODRIGUEZ",
+    "especialidades": [
+      "ECOGRAFIA"
+    ]
+  },
+  {
+    "id": 12,
+    "nombre": "ALEXANDRA BANDRES FERNANDEZ",
+    "especialidades": [
+      "FISIATRA"
+    ]
+  },
+  {
+    "id": 13,
+    "nombre": "ALFREDO ELOY CORTEZ HERNANDEZ",
+    "especialidades": [
+      "ENDOCRINOLOGIA"
+    ]
+  },
+  {
+    "id": 14,
+    "nombre": "ALLIETH ALEXANDRA MEDINA DIAZ",
+    "especialidades": [
+      "ODONTOLOGIA"
+    ]
+  },
+  {
+    "id": 15,
+    "nombre": "AMPARO MILAGROS VIÑA PAZO",
+    "especialidades": [
+      "NEFROLOGIA"
+    ]
+  },
+  {
+    "id": 16,
+    "nombre": "ANA BEATRIZ ESCOBAR BRIZUELA",
+    "especialidades": [
+      "GINECOLOGIA"
+    ]
+  },
+  {
+    "id": 17,
+    "nombre": "ANA CAROLINA SANHUEZA DUQUE",
+    "especialidades": [
+      "PEDIATRIA"
+    ]
+  },
+  {
+    "id": 18,
+    "nombre": "ANA TIBISAY UGARTE HERRERA",
+    "especialidades": [
+      "PEDIATRIA"
+    ]
+  },
+  {
+    "id": 19,
+    "nombre": "ANAIKA SORIVIC PEÑA",
+    "especialidades": [
+      "PEDIATRIA"
+    ]
+  },
+  {
+    "id": 20,
+    "nombre": "ANDCARYS CARABALLO",
+    "especialidades": [
+      "NEFROLOGIA"
+    ]
+  },
+  {
+    "id": 21,
+    "nombre": "ANDRES ALBERTO CORRO LEON",
+    "especialidades": [
+      "OFTALMOLOGIA"
+    ]
+  },
+  {
+    "id": 22,
+    "nombre": "ANE LISE SCHANOSWKI",
+    "especialidades": [
+      "ECOGRAFIA"
+    ]
+  },
+  {
+    "id": 23,
+    "nombre": "ANGEL ANDRES TREJO ALVARADO",
+    "especialidades": [
+      "CIRUGIA GENERAL Y FLEBOLOGIA"
+    ]
+  },
+  {
+    "id": 24,
+    "nombre": "ANGELA GALLO",
+    "especialidades": [
+      "ECOGRAFIA"
+    ]
+  },
+  {
+    "id": 25,
+    "nombre": "ANGGELA RODRIGUEZ",
+    "especialidades": [
+      "FISIOTERAPEUTA"
+    ]
+  },
+  {
+    "id": 26,
+    "nombre": "ANIZARITH BLANCO LINARES",
+    "especialidades": [
+      "GASTROENTEROLOGIA"
+    ]
+  },
+  {
+    "id": 27,
+    "nombre": "ANTONIO ALEJANDRO OLAIZOLA GONZALEZ",
+    "especialidades": [
+      "GINECOLOGIA Y OBSTETRICIA"
+    ]
+  },
+  {
+    "id": 28,
+    "nombre": "ANTONIO ENRIQUE GOMES MERCHAN",
+    "especialidades": [
+      "CIRUGIA ONCOLOGICA"
+    ]
+  },
+  {
+    "id": 29,
+    "nombre": "ARELYS FABIOLA SALAZAR JIMENEZ",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 30,
+    "nombre": "ARMANDO ALFONSO SANCHEZ JAEGER",
+    "especialidades": [
+      "NUTRIOLOGIA"
+    ]
+  },
+  {
+    "id": 31,
+    "nombre": "ARMANDO JOSE QUERO VELOZ",
+    "especialidades": [
+      "NEUROCIRUGIA"
+    ]
+  },
+  {
+    "id": 32,
+    "nombre": "ARNALDO JOSE RONDON FAJARDO",
+    "especialidades": [
+      "GASTROENTEROLOGO"
+    ]
+  },
+  {
+    "id": 33,
+    "nombre": "ARTURO RODRIGUEZ",
+    "especialidades": [
+      "COLOPROTOLOGIA"
+    ]
+  },
+  {
+    "id": 34,
+    "nombre": "AURA FELICIA PIÑERO ALVAREZ",
+    "especialidades": [
+      "CARDIOLOGIA"
+    ]
+  },
+  {
+    "id": 35,
+    "nombre": "AURIMAR ELIZABETH MONAGAS LOPEZ",
+    "especialidades": [
+      "FISIATRIA"
+    ]
+  },
+  {
+    "id": 36,
+    "nombre": "AURY MARIELSY GONZALEZ",
+    "especialidades": [
+      "NEFROLOGIA PEDIATRICA"
+    ]
+  },
+  {
+    "id": 37,
+    "nombre": "BEATRIZ JOSEFINA MARCOFF SERRANO",
+    "especialidades": [
+      "MEDICINA FAMILIAR"
+    ]
+  },
+  {
+    "id": 38,
+    "nombre": "BEGOÑA FABIOLA CONEJERO LOMBARTE",
+    "especialidades": [
+      "DERMATOLOGIA"
+    ]
+  },
+  {
+    "id": 39,
+    "nombre": "BLANCA ROSALIA CARRILLO OJEDA",
+    "especialidades": [
+      "NEUROLOGIA PEDIATRICA"
+    ]
+  },
+  {
+    "id": 40,
+    "nombre": "BRENDA ELIANNY ZAVALA RODRIGUEZ",
+    "especialidades": [
+      "OTORRINOLARINGOLOGIA"
+    ]
+  },
+  {
+    "id": 41,
+    "nombre": "CARLOS ALEJANDRO ACOSTA VALERO",
+    "especialidades": [
+      "CARDIOLOGIA"
+    ]
+  },
+  {
+    "id": 42,
+    "nombre": "CARLOS CARICOTE LOVERA",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 43,
+    "nombre": "CARLOS IVAN SEQUERA VARGAS",
+    "especialidades": [
+      "CIRUGIA GENERAL"
+    ]
+  },
+  {
+    "id": 44,
+    "nombre": "CARMEN ANADINA SALVATIERRA",
+    "especialidades": [
+      "GASTROENTEROLIGIA PEDIATRICA",
+      "GASTROENTEROLOGIA PEDIATRICA"
+    ]
+  },
+  {
+    "id": 45,
+    "nombre": "CARMEN VICTORIA BEA NAVA",
+    "especialidades": [
+      "GINECOLOGIA"
+    ]
+  },
+  {
+    "id": 46,
+    "nombre": "CARMEN YOLANDA SARMIENTO MEDINA",
+    "especialidades": [
+      "MEDICINA GENERAL"
+    ]
+  },
+  {
+    "id": 47,
+    "nombre": "CAROLINA DEL VALLE CEDEÑO MILLAN",
+    "especialidades": [
+      "DERMATOLOGIA"
+    ]
+  },
+  {
+    "id": 48,
+    "nombre": "CESAR ANTONIO ESCALONA VARELA",
+    "especialidades": [
+      "GINECOLOGIA"
+    ]
+  },
+  {
+    "id": 49,
+    "nombre": "CHEILA MILEIDA HIDALGO",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 50,
+    "nombre": "CLARITZA GARCIA",
+    "especialidades": [
+      "ECOGRAFIA"
+    ]
+  },
+  {
+    "id": 51,
+    "nombre": "CLAUDETT ZARAGOZA",
+    "especialidades": [
+      "CIRUGIA GENERAL"
+    ]
+  },
+  {
+    "id": 52,
+    "nombre": "CLAUDIO ROMANO ROSELLI",
+    "especialidades": [
+      "CIRUGIA GENERAL"
+    ]
+  },
+  {
+    "id": 53,
+    "nombre": "COROMOTO GARCIA ARANGU",
+    "especialidades": [
+      "ENDOCRINOLOGIA"
+    ]
+  },
+  {
+    "id": 54,
+    "nombre": "DANIEL ALBERTO DAO DALALY",
+    "especialidades": [
+      "GINECOLOGIA Y OBSTETRICIA"
+    ]
+  },
+  {
+    "id": 55,
+    "nombre": "DANIEL CASTRO LAGO",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 56,
+    "nombre": "DANTE MARCO PISANI MAZA",
+    "especialidades": [
+      "MEDICINA FAMILIAR"
+    ]
+  },
+  {
+    "id": 57,
+    "nombre": "DAVID ALEJANDRO LUGO DAVILA",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 58,
+    "nombre": "DAYSI ISABEL RAMIREZ",
+    "especialidades": [
+      "PEDIATRIA"
+    ]
+  },
+  {
+    "id": 59,
+    "nombre": "DIRLANY LILIANA HIDALGO FIGUEREDO",
+    "especialidades": [
+      "MEDICINA GENERAL"
+    ]
+  },
+  {
+    "id": 60,
+    "nombre": "DIXON ALEXIS PERALTA PEREZ",
+    "especialidades": [
+      "GASTROENTEROLOGIA"
+    ]
+  },
+  {
+    "id": 61,
+    "nombre": "DOUGLAS EFRAIN PIÑA QUEVEDO",
+    "especialidades": [
+      "CIRUGIA GENERAL"
+    ]
+  },
+  {
+    "id": 62,
+    "nombre": "DUBRASVKA JHAYLEN CEBALLOS ALVARADO",
+    "especialidades": [
+      "CIRUGIA GENERAL"
+    ]
+  },
+  {
+    "id": 63,
+    "nombre": "EDDY LUZ DE LA TRINIDAD PEREZ RINCON",
+    "especialidades": [
+      "CARDIOLOGIA"
+    ]
+  },
+  {
+    "id": 64,
+    "nombre": "EDITH YANERA RODRIGUEZ SILVA",
+    "especialidades": [
+      "MEDICINA GENERAL"
+    ]
+  },
+  {
+    "id": 65,
+    "nombre": "EDWIN ANTONIO VILLARREAL VEGA",
+    "especialidades": [
+      "ECOGRAFIA"
+    ]
+  },
+  {
+    "id": 66,
+    "nombre": "ELENA TERESA FERMIN DE VELASQUEZ",
+    "especialidades": [
+      "CIRUGIA PEDIATRICA"
+    ]
+  },
+  {
+    "id": 67,
+    "nombre": "ELESBAN RAFAEL GOMEZ CASTILLO",
+    "especialidades": [
+      "ECOGRAFIA"
+    ]
+  },
+  {
+    "id": 68,
+    "nombre": "ELIANNY CHAVEZ",
+    "especialidades": [
+      "ALERGOLOGIA"
+    ]
+  },
+  {
+    "id": 69,
+    "nombre": "ELIZABETH COROMOTO ARSPE",
+    "especialidades": [
+      "CARDIOLOGIA PEDIATRICA"
+    ]
+  },
+  {
+    "id": 70,
+    "nombre": "ERIKA ALEJANDRA COLMENARES GONZALEZ",
+    "especialidades": [
+      "FISIATRIA"
+    ]
+  },
+  {
+    "id": 71,
+    "nombre": "ERIKA JOSEFINA RECABAL SARMIENTO",
+    "especialidades": [
+      "MEDICINA GENERAL"
+    ]
+  },
+  {
+    "id": 72,
+    "nombre": "ESILDA JANETTE GIL DE HAIKALA",
+    "especialidades": [
+      "PEDIATRIA"
+    ]
+  },
+  {
+    "id": 73,
+    "nombre": "EULOGIO ERNESTO VASQUES PENOTH",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 74,
+    "nombre": "FABIOLA FUENTES",
+    "especialidades": [
+      "UROLOGIA"
+    ]
+  },
+  {
+    "id": 75,
+    "nombre": "FELIMAR MERCEDES MENDOZA PEREIRA",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 76,
+    "nombre": "FERNANDO ANTONIO GUARDA D ELIA",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 77,
+    "nombre": "FERNANDO LUIS PEREZ VILLARROEL",
+    "especialidades": [
+      "MEDICINA GENERAL"
+    ]
+  },
+  {
+    "id": 78,
+    "nombre": "FOUAD RAHAL",
+    "especialidades": [
+      "OFTALMOLOGIA"
+    ]
+  },
+  {
+    "id": 79,
+    "nombre": "FRANCISCO AGUILAR PRATTO",
+    "especialidades": [
+      "REHABILITACION Y FISIOTERAPIA"
+    ]
+  },
+  {
+    "id": 80,
+    "nombre": "FRANCISCO ALEJANDRO BETANCOURT CAMARAN",
+    "especialidades": [
+      "CIRUGIA GENERAL"
+    ]
+  },
+  {
+    "id": 81,
+    "nombre": "FRANCISCO ALEJANDRO BETANCOURT SCHANOWSKI",
+    "especialidades": [
+      "CIRUGIA BUCAL"
+    ]
+  },
+  {
+    "id": 82,
+    "nombre": "FRANCISCO ANTONIO AGUILAR PRATO",
+    "especialidades": [
+      "REHABILITACION Y FISIOTERAPIA"
+    ]
+  },
+  {
+    "id": 83,
+    "nombre": "FRANCISCO ANTONIO LARA MUÑOZ",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 84,
+    "nombre": "FRANCISCO ANTONIO YEGUEZ MARIN",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 85,
+    "nombre": "FRANCISCO JAVIER GARCIA IBARZ",
+    "especialidades": [
+      "UROLOGIA"
+    ]
+  },
+  {
+    "id": 86,
+    "nombre": "FRANCISCO YEGUEZ",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 87,
+    "nombre": "FREDDY DI LENA",
+    "especialidades": [
+      "GINECOLOGIA"
+    ]
+  },
+  {
+    "id": 88,
+    "nombre": "FREDDY MATOS RUIZ",
+    "especialidades": [
+      "CARDIOLOGIA"
+    ]
+  },
+  {
+    "id": 89,
+    "nombre": "FREDDY RAFAEL SANCHEZ RIVERO",
+    "especialidades": [
+      "UROLOGIA"
+    ]
+  },
+  {
+    "id": 90,
+    "nombre": "GABRIEL ALEJANDRO HERRERA ORTIZ",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 91,
+    "nombre": "GABRIELA MARRERO",
+    "especialidades": [
+      "GINECOLOGIA"
+    ]
+  },
+  {
+    "id": 92,
+    "nombre": "GERMAN URBINA",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 93,
+    "nombre": "GILMA JOSEFINA GIL DE CASTAÑOS",
+    "especialidades": [
+      "PEDIATRIA"
+    ]
+  },
+  {
+    "id": 94,
+    "nombre": "GLADYS HERMINIA AGUIRRE MARTINEZ",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 95,
+    "nombre": "GLORIA ALEJANDRA ESQUIVEL",
+    "especialidades": [
+      "OFTALMOLOGIA"
+    ]
+  },
+  {
+    "id": 96,
+    "nombre": "GLORIA INMACULADA MARIN RODRIGUEZ",
+    "especialidades": [
+      "OTORRINOLARINGOLOGIA"
+    ]
+  },
+  {
+    "id": 97,
+    "nombre": "GUILLERMO JOSE GUERRERO FLORES",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 98,
+    "nombre": "GUILLERMO JOSE VELASQUEZ LOPEZ",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 99,
+    "nombre": "GUSTAVO ADOLFO RODRIGUEZ MARQUEZ",
+    "especialidades": [
+      "NEUROCIRUGIA"
+    ]
+  },
+  {
+    "id": 100,
+    "nombre": "HALINA MONSERRAT MARTINEZ DE PISANI",
+    "especialidades": [
+      "MEDICINA FAMILIAR"
+    ]
+  },
+  {
+    "id": 101,
+    "nombre": "HECTOR ANDRES MARCANO ALFONZO",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 102,
+    "nombre": "HECTORE CANIGIANI",
+    "especialidades": [
+      "UROLOGIA"
+    ]
+  },
+  {
+    "id": 103,
+    "nombre": "HERNANDO ANTONIO PAYARES LOPEZ",
+    "especialidades": [
+      "NEFROLOGIA"
+    ]
+  },
+  {
+    "id": 104,
+    "nombre": "HUGO ENDERSON PINO SIFONTES",
+    "especialidades": [
+      "GASTROENTEROLOGO"
+    ]
+  },
+  {
+    "id": 105,
+    "nombre": "INGRID LUYMAR RIVAS",
+    "especialidades": [
+      "GINECOLOGIA Y OBSTETRICIA"
+    ]
+  },
+  {
+    "id": 106,
+    "nombre": "IRAIMA LUCIA BRETO GONZALEZ",
+    "especialidades": [
+      "NEFROLOGIA"
+    ]
+  },
+  {
+    "id": 107,
+    "nombre": "IRMA ESPINOZA HURTADO",
+    "especialidades": [
+      "MEDICINA GENERAL"
+    ]
+  },
+  {
+    "id": 108,
+    "nombre": "IRMA THAIS BARRETO",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 109,
+    "nombre": "ISABEL VIRGINIA VARELA JIMENEZ",
+    "especialidades": [
+      "CIRUGIA CARDIOVASCULAR"
+    ]
+  },
+  {
+    "id": 110,
+    "nombre": "JESUS ALBERTO ELLIS BLANCO",
+    "especialidades": [
+      "ODONTOLOGIA"
+    ]
+  },
+  {
+    "id": 111,
+    "nombre": "JESUS ALBERTO LOAIZA CALZADILLA",
+    "especialidades": [
+      "REUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 112,
+    "nombre": "JESUS ALBERTO PEREIRA TERAN",
+    "especialidades": [
+      "ECOGRAFIA"
+    ]
+  },
+  {
+    "id": 113,
+    "nombre": "JESUS ARGENIS VILLARREAL",
+    "especialidades": [
+      "GINECOLOGIA Y OBSTETRICIA"
+    ]
+  },
+  {
+    "id": 114,
+    "nombre": "JESUS DANIEL SIFONTES HENRIQUEZ",
+    "especialidades": [
+      "FISIOTERAPIA"
+    ]
+  },
+  {
+    "id": 115,
+    "nombre": "JIVER FERNANDO MORILLO TORRES",
+    "especialidades": [
+      "CIRUGIA PEDIATRICA"
+    ]
+  },
+  {
+    "id": 116,
+    "nombre": "JORGE LUIS AGREDA MARCANO",
+    "especialidades": [
+      "UROLOGIA"
+    ]
+  },
+  {
+    "id": 117,
+    "nombre": "JORGE LUIS DIAZ HERNANDEZ",
+    "especialidades": [
+      "ECOGRAFIA"
+    ]
+  },
+  {
+    "id": 118,
+    "nombre": "JOSDITH DASSA PEREZ CAMPOS",
+    "especialidades": [
+      "OFTALMOLOGIA"
+    ]
+  },
+  {
+    "id": 119,
+    "nombre": "JOSE ANTONIO HERNANDEZ TERAN",
+    "especialidades": [
+      "CIRUGIA GENERAL"
+    ]
+  },
+  {
+    "id": 120,
+    "nombre": "JOSE DAVID GONZALEZ TOVAR",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 121,
+    "nombre": "JOSE LUIS DELLAN SERRANO",
+    "especialidades": [
+      "NUTRICION"
+    ]
+  },
+  {
+    "id": 122,
+    "nombre": "JOSE LUIS HERRERA",
+    "especialidades": [
+      "CIRUGIA GENERAL",
+      "MEDICINA GENERAL"
+    ]
+  },
+  {
+    "id": 123,
+    "nombre": "JOSE RAFAEL LEONIDES VALERO SOTO",
+    "especialidades": [
+      "CIRUGIA PEDIATRICA"
+    ]
+  },
+  {
+    "id": 124,
+    "nombre": "JOSE RAFAEL PARRAGA HURTADO",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 125,
+    "nombre": "JOSE RAFAEL PRINCE DUNO",
+    "especialidades": [
+      "MASTOLOGIA"
+    ]
+  },
+  {
+    "id": 126,
+    "nombre": "JUAN DIEGO QUINTERO COLINA",
+    "especialidades": [
+      "CIRUGIA GENERAL"
+    ]
+  },
+  {
+    "id": 127,
+    "nombre": "JULIA FLAVIA JOLAY DE PORTUGAL",
+    "especialidades": [
+      "PEDIATRIA"
+    ]
+  },
+  {
+    "id": 128,
+    "nombre": "JULIO BETANCOURT",
+    "especialidades": [
+      "MEDICINA FAMILIAR"
+    ]
+  },
+  {
+    "id": 129,
+    "nombre": "JUNIO MORILLO",
+    "especialidades": [
+      "CIRUGIA GENERAL"
+    ]
+  },
+  {
+    "id": 130,
+    "nombre": "KAREN BEATRIZ CORDERO GOMEZ",
+    "especialidades": [
+      "CARDIOLOGIA"
+    ]
+  },
+  {
+    "id": 131,
+    "nombre": "KARIANNY DEL CARMEN PETIT RUIZ",
+    "especialidades": [
+      "PEDIATRIA"
+    ]
+  },
+  {
+    "id": 132,
+    "nombre": "KARINA RODRIGUEZ",
+    "especialidades": [
+      "OFTALMOLOGIA"
+    ]
+  },
+  {
+    "id": 133,
+    "nombre": "KARLA VANESSA GUEVARA TORREALBA",
+    "especialidades": [
+      "OTORRINOLARINGOLOGIA"
+    ]
+  },
+  {
+    "id": 134,
+    "nombre": "KARLY HERNANDEZ",
+    "especialidades": [
+      "PEDIATRIA"
+    ]
+  },
+  {
+    "id": 135,
+    "nombre": "KATERI AMADI MORA LOVERA",
+    "especialidades": [
+      "ECOGRAFIA"
+    ]
+  },
+  {
+    "id": 136,
+    "nombre": "KATHERINE LEON",
+    "especialidades": [
+      "FISIATRIA"
+    ]
+  },
+  {
+    "id": 137,
+    "nombre": "KEILA COROMOTO SILVA",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 138,
+    "nombre": "KENNEETH PARRA",
+    "especialidades": [
+      "COLOPROCTOLOGIA"
+    ]
+  },
+  {
+    "id": 139,
+    "nombre": "KIMBERLEY MARIANA RODRIGUEZ",
+    "especialidades": [
+      "ODONTOLOGIA"
+    ]
+  },
+  {
+    "id": 140,
+    "nombre": "LAURA SANCHEZ",
+    "especialidades": [
+      "PSICOLOGIA CLINICA"
+    ]
+  },
+  {
+    "id": 141,
+    "nombre": "LEONARDO ALBERTO NUÑEZ CALZADILLA",
+    "especialidades": [
+      "NEUROCIRUGIA"
+    ]
+  },
+  {
+    "id": 142,
+    "nombre": "LEONARDO ANDRES CRUCES",
+    "especialidades": [
+      "INFECTOLOGIA"
+    ]
+  },
+  {
+    "id": 143,
+    "nombre": "LEONARDO JOSE SUAREZ DORADO",
+    "especialidades": [
+      "ECOGRAFIA"
+    ]
+  },
+  {
+    "id": 144,
+    "nombre": "LEONELIS Bermudez",
+    "especialidades": [
+      "PSICOLOGIA CLINICA"
+    ]
+  },
+  {
+    "id": 145,
+    "nombre": "LESLIE COROMOTO MARIN MONTES DE OCA",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 146,
+    "nombre": "LEWIS ENRIQUE SOLORZANO DIAZ",
+    "especialidades": [
+      "HEMATOLOGIA"
+    ]
+  },
+  {
+    "id": 147,
+    "nombre": "LIGIA MARISELA VILLARROEL MUJICA",
+    "especialidades": [
+      "PEDIATRIA"
+    ]
+  },
+  {
+    "id": 148,
+    "nombre": "LUIS ALFREDO ORTA VARGAS",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 149,
+    "nombre": "LUIS DAVID RODRIGUEZ ARISMENDI",
+    "especialidades": [
+      "GINECOLOGIA Y OBSTETRICIA"
+    ]
+  },
+  {
+    "id": 150,
+    "nombre": "LUIS ENRIQUE ROMERO GONZALEZ",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 151,
+    "nombre": "LUIS FELIPE RIVAS LAREZ",
+    "especialidades": [
+      "CIRUGIA PEDIATRICA"
+    ]
+  },
+  {
+    "id": 152,
+    "nombre": "LUIS GERALDO MARTINEZ MERCADO",
+    "especialidades": [
+      "NEUROCIRUGIA"
+    ]
+  },
+  {
+    "id": 153,
+    "nombre": "LUIS GOMEZ",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 154,
+    "nombre": "LUIS GUILIARTE",
+    "especialidades": [
+      "FISIOTERAPEUTA"
+    ]
+  },
+  {
+    "id": 155,
+    "nombre": "LUISA MORELBA MONTAGNE WADSKIER",
+    "especialidades": [
+      "ALERGOLOGIA",
+      "INMUNOLOGIA"
+    ]
+  },
+  {
+    "id": 156,
+    "nombre": "MAGALY DEL CARMEN REY BARILLAS",
+    "especialidades": [
+      "DERMATOLOGIA"
+    ]
+  },
+  {
+    "id": 157,
+    "nombre": "MANUEL ACUÑA",
+    "especialidades": [
+      "CARDIOLOGIA"
+    ]
+  },
+  {
+    "id": 158,
+    "nombre": "MANUEL ENRIQUE DOUAIHI SALAS",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 159,
+    "nombre": "MANUEL JIMENEZ",
+    "especialidades": [
+      "MEDICINA OCUPACIONAL"
+    ]
+  },
+  {
+    "id": 160,
+    "nombre": "MANUEL VELAZQUEZ",
+    "especialidades": [
+      "FISIATRIA"
+    ]
+  },
+  {
+    "id": 161,
+    "nombre": "MARGARITA LOPEZ",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 162,
+    "nombre": "MARIA ANTONIETA ARAY GRANADILLO",
+    "especialidades": [
+      "HEMATOLOGIA",
+      "HEMATÓLOGIA"
+    ]
+  },
+  {
+    "id": 163,
+    "nombre": "MARIA ANTONIETA GUEVARA INICIARTE",
+    "especialidades": [
+      "ECOGRAFIA"
+    ]
+  },
+  {
+    "id": 164,
+    "nombre": "MARIA DE LOS ANGELES GRIMAN ARRECHEDERA",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 165,
+    "nombre": "MARIA DEL ROSARIO PEREZ COLMENARES",
+    "especialidades": [
+      "PEDIATRIA"
+    ]
+  },
+  {
+    "id": 166,
+    "nombre": "MARIA EUGENIA OCHOA DELGADO",
+    "especialidades": [
+      "MEDICINA GENERAL"
+    ]
+  },
+  {
+    "id": 167,
+    "nombre": "MARIA GABRIELA COLOMBET CASADIEGO",
+    "especialidades": [
+      "DERMATOLOGIA"
+    ]
+  },
+  {
+    "id": 168,
+    "nombre": "MARIA GABRIELA HERNANDEZ MARQUEZ",
+    "especialidades": [
+      "GASTROENTEROLOGIA"
+    ]
+  },
+  {
+    "id": 169,
+    "nombre": "MARIA ISABEL GARCIA DE OROZCO",
+    "especialidades": [
+      "PEDIATRIA"
+    ]
+  },
+  {
+    "id": 170,
+    "nombre": "MARIA LAURA VALENTE DI BARTOLOMEI",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 171,
+    "nombre": "MARIA QUERO",
+    "especialidades": [
+      "OTORRINOLARINGOLOGIA"
+    ]
+  },
+  {
+    "id": 172,
+    "nombre": "MARIANA ALEJANDRA MARTINEZ RODRIGUEZ",
+    "especialidades": [
+      "PSICOLOGIA CLINICA"
+    ]
+  },
+  {
+    "id": 173,
+    "nombre": "MARIANELA DEL VALLE RODRIGUEZ BENCOMO",
+    "especialidades": [
+      "GINECOLOGIA Y OBSTETRICIA"
+    ]
+  },
+  {
+    "id": 174,
+    "nombre": "MARIANGEL DEL VALLE MOYA MALAVER",
+    "especialidades": [
+      "PEDIATRIA"
+    ]
+  },
+  {
+    "id": 175,
+    "nombre": "MARIBEL ROSARIO CARVAJAL ARENAS",
+    "especialidades": [
+      "CARDIOLOGIA"
+    ]
+  },
+  {
+    "id": 176,
+    "nombre": "MARINA YILKA MARVAL FIGUEROA",
+    "especialidades": [
+      "NEUMONOLOGIA"
+    ]
+  },
+  {
+    "id": 177,
+    "nombre": "MARITZA ELENA GARCIA GUAIRA",
+    "especialidades": [
+      "ECOGRAFIA"
+    ]
+  },
+  {
+    "id": 178,
+    "nombre": "MARLIN ADELAIDA ESPAÑA BLANCO",
+    "especialidades": [
+      "CARDIOLOGIA"
+    ]
+  },
+  {
+    "id": 179,
+    "nombre": "MARY ALVAREZ",
+    "especialidades": [
+      "DERMATOLOGIA"
+    ]
+  },
+  {
+    "id": 180,
+    "nombre": "MARY EUGENIA SANCHEZ TREJO",
+    "especialidades": [
+      "MEDICINA FAMILIAR"
+    ]
+  },
+  {
+    "id": 181,
+    "nombre": "MARYAURORA FERNANDEZ",
+    "especialidades": [
+      "GASTROENTEROLOGIA PEDIATRICA"
+    ]
+  },
+  {
+    "id": 182,
+    "nombre": "MASSIEL E. NUÑEZ MARQUEZ",
+    "especialidades": [
+      "NEUMONOLOGIA"
+    ]
+  },
+  {
+    "id": 183,
+    "nombre": "MASSIEL FLORES",
+    "especialidades": [
+      "GASTROENTEROLOGIA"
+    ]
+  },
+  {
+    "id": 184,
+    "nombre": "MAURIN ESPINOZA HOLGUIN",
+    "especialidades": [
+      "PEDIATRIA"
+    ]
+  },
+  {
+    "id": 185,
+    "nombre": "MAYERLING CAROLINA BITRIAGA MORA",
+    "especialidades": [
+      "OTORRINOLARINGOLOGIA"
+    ]
+  },
+  {
+    "id": 186,
+    "nombre": "MAYRA AZUAJE PEREZ",
+    "especialidades": [
+      "PEDIATRIA"
+    ]
+  },
+  {
+    "id": 187,
+    "nombre": "MELISSA DEL VALLE MERCHAN TORIBE",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 188,
+    "nombre": "MELYS JESUS GIL GARCIA",
+    "especialidades": [
+      "RADIOLOGIA"
+    ]
+  },
+  {
+    "id": 189,
+    "nombre": "MICHELLE DAYANA BOTELLO OLIVARES",
+    "especialidades": [
+      "ODONTOLOGIA PEDIATRICA"
+    ]
+  },
+  {
+    "id": 190,
+    "nombre": "MIGUEL DEL JESUS GARCIA GONZALEZ",
+    "especialidades": [
+      "CIRUGIA GENERAL"
+    ]
+  },
+  {
+    "id": 191,
+    "nombre": "MIGUEL MORENO",
+    "especialidades": [
+      "CIRUGIA CARDIOVASCULAR"
+    ]
+  },
+  {
+    "id": 192,
+    "nombre": "MIGUELANGEL DECANIO BOLIVAR",
+    "especialidades": [
+      "CIRUGIA GENERAL"
+    ]
+  },
+  {
+    "id": 193,
+    "nombre": "MIRIAM CARLOTA OLIVEROS DE ANGULO",
+    "especialidades": [
+      "ENDOCRINOLOGIA"
+    ]
+  },
+  {
+    "id": 194,
+    "nombre": "MIRLANDA ORTEGA",
+    "especialidades": [
+      "ODONTOLOGIA"
+    ]
+  },
+  {
+    "id": 195,
+    "nombre": "MIRNA BEJARANO DE RIVAS",
+    "especialidades": [
+      "PEDIATRIA"
+    ]
+  },
+  {
+    "id": 196,
+    "nombre": "MIROSLAVA PINTO GONZALEZ",
+    "especialidades": [
+      "ENDOCRINOLOGIA"
+    ]
+  },
+  {
+    "id": 197,
+    "nombre": "MORELBA NAYADIAN FINOCCHIO SANCHEZ",
+    "especialidades": [
+      "FISIATRIA"
+    ]
+  },
+  {
+    "id": 198,
+    "nombre": "NAIMILY VALERIA EL HAMRA ALVARADO",
+    "especialidades": [
+      "PEDIATRIA"
+    ]
+  },
+  {
+    "id": 199,
+    "nombre": "NAKARID MIROSLAVA CASTRO RUIZ",
+    "especialidades": [
+      "FISIATRIA"
+    ]
+  },
+  {
+    "id": 200,
+    "nombre": "NANCY LISBETH CHAVEZ VIVAS",
+    "especialidades": [
+      "CIRUGIA GENERAL"
+    ]
+  },
+  {
+    "id": 201,
+    "nombre": "NATALIO JOSE ORCIAL ACEVEDO",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 202,
+    "nombre": "NELSON SEQUEIRA",
+    "especialidades": [
+      "DERMATOLOGIA"
+    ]
+  },
+  {
+    "id": 203,
+    "nombre": "NICOLE DE JESUS SANCHEZ TABARES",
+    "especialidades": [
+      "GINECOLOGIA Y OBSTETRICIA"
+    ]
+  },
+  {
+    "id": 204,
+    "nombre": "NOELYS DEL VALLE LOPEZ",
+    "especialidades": [
+      "MEDICINA GENERAL"
+    ]
+  },
+  {
+    "id": 205,
+    "nombre": "NORA MARIELA JAIMES",
+    "especialidades": [
+      "CARDIOLOGIA PEDIATRICA"
+    ]
+  },
+  {
+    "id": 206,
+    "nombre": "NORKA ESTRELLA HERNANDEZ LUGO",
+    "especialidades": [
+      "FISIATRIA"
+    ]
+  },
+  {
+    "id": 207,
+    "nombre": "OMAIRA DEL VALLE FRONTADO SALCEDO",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 208,
+    "nombre": "ORIANA JOSE DE SOUSA REYES",
+    "especialidades": [
+      "FISIOTERAPIA"
+    ]
+  },
+  {
+    "id": 209,
+    "nombre": "ORIANNA DE JESUS MORENO TERAN",
+    "especialidades": [
+      "DERMATOLOGIA"
+    ]
+  },
+  {
+    "id": 210,
+    "nombre": "OSCAR SANCHEZ",
+    "especialidades": [
+      "NEFROLOGIA"
+    ]
+  },
+  {
+    "id": 211,
+    "nombre": "OSMAR ENRRIQUE NATERA ORDOÑEZ",
+    "especialidades": [
+      "GINECOLOGIA Y OBSTETRICIA"
+    ]
+  },
+  {
+    "id": 212,
+    "nombre": "PALMIRA BEATRIZ OLIVEROS DE CORTEZ",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 213,
+    "nombre": "PAUL ARMANDO CASTILLO GUERRA",
+    "especialidades": [
+      "CARDIOLOGIA"
+    ]
+  },
+  {
+    "id": 214,
+    "nombre": "PEDRO JESUS OCHOA GUERRERO",
+    "especialidades": [
+      "CARDIOLOGIA"
+    ]
+  },
+  {
+    "id": 215,
+    "nombre": "RAIZA MARIA APONTE RODRIGUEZ",
+    "especialidades": [
+      "OTORRINOLARINGOLOGIA"
+    ]
+  },
+  {
+    "id": 216,
+    "nombre": "RAMON DARIO TELLEZ MENDEZ",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 217,
+    "nombre": "RAMON GARCES",
+    "especialidades": [
+      "UROLOGIA"
+    ]
+  },
+  {
+    "id": 218,
+    "nombre": "RAQUEL CAROLINA DIAZ OSTOS",
+    "especialidades": [
+      "CARDIOLOGIA"
+    ]
+  },
+  {
+    "id": 219,
+    "nombre": "REINA MARINA OCCHIPINTI GOMEZ",
+    "especialidades": [
+      "MEDICINA GENERAL"
+    ]
+  },
+  {
+    "id": 220,
+    "nombre": "RICARDO ANTONIO LOPEZ PEREZ",
+    "especialidades": [
+      "CIRUGIA ONCOLOGICA",
+      "MASTOLOGIA"
+    ]
+  },
+  {
+    "id": 221,
+    "nombre": "ROBNALD RODRIGUEZ RODRIGUEZ",
+    "especialidades": [
+      "CIRUGIA GENERAL"
+    ]
+  },
+  {
+    "id": 222,
+    "nombre": "ROCIO ALEJANDRA ARTEAGA MENDOZA",
+    "especialidades": [
+      "OTORRINOLARINGOLOGIA"
+    ]
+  },
+  {
+    "id": 223,
+    "nombre": "ROSA CAROLINA DE LA PAZ ROMANO RUEDA",
+    "especialidades": [
+      "CIRUGIA GENERAL"
+    ]
+  },
+  {
+    "id": 224,
+    "nombre": "ROSA DEL VALLE ACOSTA GUTIERREZ",
+    "especialidades": [
+      "CARDIOLOGIA"
+    ]
+  },
+  {
+    "id": 225,
+    "nombre": "ROSA MARGARITA ORSETTI SALAZAR -VACACIONES-",
+    "especialidades": [
+      "MEDICINA FAMILIAR"
+    ]
+  },
+  {
+    "id": 226,
+    "nombre": "ROSALIA ANDREINA MARTINEZ FLORES",
+    "especialidades": [
+      "GINECOLOGIA Y OBSTETRICIA"
+    ]
+  },
+  {
+    "id": 227,
+    "nombre": "ROSALIA ROMERO",
+    "especialidades": [
+      "PEDIATRA"
+    ]
+  },
+  {
+    "id": 228,
+    "nombre": "ROSANA LISBETH VASQUEZ DE VARELA",
+    "especialidades": [
+      "ANGIOLOGIA"
+    ]
+  },
+  {
+    "id": 229,
+    "nombre": "ROSANGEL HIDALGO PIZZO",
+    "especialidades": [
+      "OTORRINOLARINGOLOGIA"
+    ]
+  },
+  {
+    "id": 230,
+    "nombre": "SAMUEL NEHEMIAH ROJAS GONZALEZ",
+    "especialidades": [
+      "ECOGRAFIA"
+    ]
+  },
+  {
+    "id": 231,
+    "nombre": "SANDRA SORAYA GONZALEZ HERNANDEZ",
+    "especialidades": [
+      "HEMATÓLO INFANTIL"
+    ]
+  },
+  {
+    "id": 232,
+    "nombre": "SEILA ROSA BENAVIDES LARES",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 233,
+    "nombre": "SILVIA BALCAZAR -INACTIVA-",
+    "especialidades": [
+      "REUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 234,
+    "nombre": "SIXTA LORENA PEREZ VASQUEZ",
+    "especialidades": [
+      "CARDIOLOGIA"
+    ]
+  },
+  {
+    "id": 235,
+    "nombre": "SIXTO URDANETA",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 236,
+    "nombre": "TELMO GERARDO QUIROS GREEN",
+    "especialidades": [
+      "REUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 237,
+    "nombre": "THAIS DE CARMEN RODRIGUEZ PINEDO",
+    "especialidades": [
+      "PSICOLOGIA CLINICA"
+    ]
+  },
+  {
+    "id": 238,
+    "nombre": "THOMAS MAXIMO MANCINELLI RINALDO",
+    "especialidades": [
+      "OTORRINOLARINGOLOGIA"
+    ]
+  },
+  {
+    "id": 239,
+    "nombre": "VANESSA CAROLINA LLONA BELLORIN",
+    "especialidades": [
+      "OTORRINOLARINGOLOGIA"
+    ]
+  },
+  {
+    "id": 240,
+    "nombre": "VILMA YOCONDA MALDONADO DE NUÑEZ",
+    "especialidades": [
+      "CARDIOLOGIA"
+    ]
+  },
+  {
+    "id": 241,
+    "nombre": "VINCENZO CAPOZZI LABELLARTE",
+    "especialidades": [
+      "OTORRINOLARINGOLOGIA"
+    ]
+  },
+  {
+    "id": 242,
+    "nombre": "VIRGINIA LAREZ",
+    "especialidades": [
+      "CIRUGIA GENERAL"
+    ]
+  },
+  {
+    "id": 243,
+    "nombre": "WILLIAM J. MANSUTTI RODRIGUEZ",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 244,
+    "nombre": "WYNSTON JOSE LUIS ALVAREZ MARTINEZ",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 245,
+    "nombre": "YBETH GUADA",
+    "especialidades": [
+      "ODONTOLOGIA"
+    ]
+  },
+  {
+    "id": 246,
+    "nombre": "YELITZA DEL VALLE BARRIOS RODRIGUEZ",
+    "especialidades": [
+      "MEDICINA INTERNA"
+    ]
+  },
+  {
+    "id": 247,
+    "nombre": "YENIFFER CAROLINA FLORES REYES",
+    "especialidades": [
+      "UROLOGIA"
+    ]
+  },
+  {
+    "id": 248,
+    "nombre": "YENINT JOSEFINA ROSAS CEDEÑO",
+    "especialidades": [
+      "GINECOLOGIA"
+    ]
+  },
+  {
+    "id": 249,
+    "nombre": "YENIREE ALEXANDRA ALVAREZ ESCALONA",
+    "especialidades": [
+      "ECOGRAFIA"
+    ]
+  },
+  {
+    "id": 250,
+    "nombre": "YOSMARY MARCHENA",
+    "especialidades": [
+      "PEDIATRIA"
+    ]
+  },
+  {
+    "id": 251,
+    "nombre": "YOSSEH MIGUEL MORENO ARIAS",
+    "especialidades": [
+      "FISIOTERAPIA"
+    ]
+  },
+  {
+    "id": 252,
+    "nombre": "YRVIN LUIS SUAREZ PRIETO",
+    "especialidades": [
+      "TRAUMATOLOGIA"
+    ]
+  },
+  {
+    "id": 253,
+    "nombre": "ZEIMAR TERESA ALVAREZ SEQUERA",
+    "especialidades": [
+      "PEDIATRIA"
+    ]
+  },
+  {
+    "id": 254,
+    "nombre": "ZORAIDA CANDELARIA RODRIGUEZ LEON",
+    "especialidades": [
+      "NEUMONOLOGIA"
+    ]
+  }
+]

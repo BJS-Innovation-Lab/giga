@@ -1,0 +1,5402 @@
+[
+  {
+    "medico_id": 1,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y JUEVES 1PM a 4PM"
+  },
+  {
+    "medico_id": 1,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y JUEVES 1PM a 4PM"
+  },
+  {
+    "medico_id": 2,
+    "sede": "SEDE VIÑA",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 6,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "SABADO 8AM a 12PM"
+  },
+  {
+    "medico_id": 3,
+    "sede": "SEDE MARACAY",
+    "especialidad": "NEUROCIRUGIA",
+    "dia_semana": 3,
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES 10AM a 12PM"
+  },
+  {
+    "medico_id": 4,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "NUTRICIONISTA",
+    "dia_semana": 3,
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "horario_raw": "MIERCOLES 10AM a 1PM"
+  },
+  {
+    "medico_id": 4,
+    "sede": "SEDE SUR",
+    "especialidad": "NUTRICIONISTA",
+    "dia_semana": 3,
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "horario_raw": "MIERCOLES 10AM a 1PM"
+  },
+  {
+    "medico_id": 5,
+    "sede": "SEDE NORTE",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 8M a 12PM"
+  },
+  {
+    "medico_id": 5,
+    "sede": "SEDE NORTE",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 8M a 12PM"
+  },
+  {
+    "medico_id": 5,
+    "sede": "SEDE NORTE",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 8M a 12PM"
+  },
+  {
+    "medico_id": 6,
+    "sede": "SEDE SUR",
+    "especialidad": "GASTROENTEROLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "07:30",
+    "hora_fin": "11:30",
+    "horario_raw": "JUEVES 7:30 AM a 11:30AM"
+  },
+  {
+    "medico_id": 7,
+    "sede": "SEDE SUR",
+    "especialidad": "GASTROENTEROLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES 8AM a 12pm"
+  },
+  {
+    "medico_id": 7,
+    "sede": "SEDE VIÑA",
+    "especialidad": "GASTROENTEROLOGA",
+    "dia_semana": 2,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES 2PM a 4PM"
+  },
+  {
+    "medico_id": 8,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA GENERAL Y DIABETOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "07:30",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES Y VIERNES 7:30AM a 12PM"
+  },
+  {
+    "medico_id": 8,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA GENERAL Y DIABETOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "07:30",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES Y VIERNES 7:30AM a 12PM"
+  },
+  {
+    "medico_id": 9,
+    "sede": "SEDE SUR",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 9,
+    "sede": "SEDE SUR",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 9,
+    "sede": "SEDE VIÑA",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 6,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "SABADO 8AM a 12PM"
+  },
+  {
+    "medico_id": 10,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "15:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES 3PM a 4PM"
+  },
+  {
+    "medico_id": 11,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 3,
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "horario_raw": "MIERCOLES Y VIERNES 2PM a 5 PM"
+  },
+  {
+    "medico_id": 11,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 5,
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "horario_raw": "MIERCOLES Y VIERNES 2PM a 5 PM"
+  },
+  {
+    "medico_id": 12,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "FISIATRA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 13,
+    "sede": "SEDE NORTE",
+    "especialidad": "ENDOCRINOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "14:30",
+    "hora_fin": "16:00",
+    "horario_raw": "VIERNES 2:30PM a 4PM"
+  },
+  {
+    "medico_id": 13,
+    "sede": "SEDE SUR",
+    "especialidad": "ENDOCRINOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 14,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "ODONTOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 14,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "ODONTOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 14,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "ODONTOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 15,
+    "sede": "SEDE NORTE",
+    "especialidad": "NEFROLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES, MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 15,
+    "sede": "SEDE NORTE",
+    "especialidad": "NEFROLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES, MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 15,
+    "sede": "SEDE NORTE",
+    "especialidad": "NEFROLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES, MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 15,
+    "sede": "SEDE SUR",
+    "especialidad": "NEFROLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00",
+    "horario_raw": "VIERNES 9AM a 2PM"
+  },
+  {
+    "medico_id": 16,
+    "sede": "SEDE SUR",
+    "especialidad": "GINECOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "14:00",
+    "horario_raw": "LUNES, MIERCOLES Y JUEVES 8AM a 2PM"
+  },
+  {
+    "medico_id": 16,
+    "sede": "SEDE SUR",
+    "especialidad": "GINECOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "14:00",
+    "horario_raw": "LUNES, MIERCOLES Y JUEVES 8AM a 2PM"
+  },
+  {
+    "medico_id": 16,
+    "sede": "SEDE SUR",
+    "especialidad": "GINECOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "14:00",
+    "horario_raw": "LUNES, MIERCOLES Y JUEVES 8AM a 2PM"
+  },
+  {
+    "medico_id": 17,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 17,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 18,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES AVIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 18,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES AVIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 19,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 5,
+    "hora_inicio": "13:00",
+    "hora_fin": "17:00",
+    "horario_raw": "MARTES 1PM a 5PM Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 19,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "17:00",
+    "horario_raw": "MARTES 1PM a 5PM Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 19,
+    "sede": "SEDE SUR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES 8AM a 12PM"
+  },
+  {
+    "medico_id": 20,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "NEFROLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES 1PM a 4PM"
+  },
+  {
+    "medico_id": 21,
+    "sede": "SEDE MARACAY",
+    "especialidad": "OFTALMOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "14:30",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES 2:30PM a 4PM/ VIERNES 8AM a 11AM y 2:30PM a 4PM"
+  },
+  {
+    "medico_id": 21,
+    "sede": "SEDE MARACAY",
+    "especialidad": "OFTALMOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "11:00",
+    "horario_raw": "MIERCOLES 2:30PM a 4PM/ VIERNES 8AM a 11AM y 2:30PM a 4PM"
+  },
+  {
+    "medico_id": 22,
+    "sede": "SEDE SUR",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 22,
+    "sede": "SEDE SUR",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 23,
+    "sede": "SEDE MARACAY",
+    "especialidad": "CIRUGIA GENERAL Y FLEBOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "13:30",
+    "hora_fin": "16:30",
+    "horario_raw": "Miercoles 1:30 pm"
+  },
+  {
+    "medico_id": 24,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES 8AM a 4PM"
+  },
+  {
+    "medico_id": 25,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "FISIOTERAPEUTA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 25,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "FISIOTERAPEUTA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 25,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "FISIOTERAPEUTA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 25,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "FISIOTERAPEUTA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 25,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "FISIOTERAPEUTA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 26,
+    "sede": "SEDE SUR",
+    "especialidad": "GASTROENTEROLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "11:00",
+    "hora_fin": "13:00",
+    "horario_raw": "VIERNES 11AM a 1PM"
+  },
+  {
+    "medico_id": 27,
+    "sede": "SEDE VIÑA",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 1,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES A JUEVES 2PM a 4PM"
+  },
+  {
+    "medico_id": 27,
+    "sede": "SEDE VIÑA",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 2,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES A JUEVES 2PM a 4PM"
+  },
+  {
+    "medico_id": 27,
+    "sede": "SEDE VIÑA",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 3,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES A JUEVES 2PM a 4PM"
+  },
+  {
+    "medico_id": 27,
+    "sede": "SEDE VIÑA",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 4,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES A JUEVES 2PM a 4PM"
+  },
+  {
+    "medico_id": 28,
+    "sede": "SEDE MARACAY",
+    "especialidad": "CIRUGIA ONCOLOGICA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "11:00",
+    "horario_raw": "LUNES 8AM a 11AM"
+  },
+  {
+    "medico_id": 29,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y MIERCOLES 8AM a 4PM"
+  },
+  {
+    "medico_id": 29,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y MIERCOLES 8AM a 4PM"
+  },
+  {
+    "medico_id": 30,
+    "sede": "SEDE VIÑA",
+    "especialidad": "NUTRIOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES 1PM a 4PM"
+  },
+  {
+    "medico_id": 31,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "NEUROCIRUGIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES 8AM a 12PM"
+  },
+  {
+    "medico_id": 32,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GASTROENTEROLOGO",
+    "dia_semana": 2,
+    "hora_inicio": "14:00",
+    "hora_fin": "15:00",
+    "horario_raw": "MARTES Y JUEVES 2PM a 3PM"
+  },
+  {
+    "medico_id": 32,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GASTROENTEROLOGO",
+    "dia_semana": 4,
+    "hora_inicio": "14:00",
+    "hora_fin": "15:00",
+    "horario_raw": "MARTES Y JUEVES 2PM a 3PM"
+  },
+  {
+    "medico_id": 33,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "COLOPROTOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 34,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES 1PM a 4PM / MARTES, MIERCOLES Y JUEVES DE 9AM A 12PM"
+  },
+  {
+    "medico_id": 34,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES 1PM a 4PM / MARTES, MIERCOLES Y JUEVES DE 9AM A 12PM"
+  },
+  {
+    "medico_id": 34,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES 1PM a 4PM / MARTES, MIERCOLES Y JUEVES DE 9AM A 12PM"
+  },
+  {
+    "medico_id": 34,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES 1PM a 4PM / MARTES, MIERCOLES Y JUEVES DE 9AM A 12PM"
+  },
+  {
+    "medico_id": 35,
+    "sede": "SEDE SUR",
+    "especialidad": "FISIATRIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:30",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y VIERNES 8:30AM a 12PM"
+  },
+  {
+    "medico_id": 35,
+    "sede": "SEDE SUR",
+    "especialidad": "FISIATRIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:30",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y VIERNES 8:30AM a 12PM"
+  },
+  {
+    "medico_id": 36,
+    "sede": "SEDE VIÑA",
+    "especialidad": "NEFROLOGIA PEDIATRICA",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES 1PM a 4PM"
+  },
+  {
+    "medico_id": 37,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "MEDICINA FAMILIAR",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y JUEVES 9AM a 4PM"
+  },
+  {
+    "medico_id": 37,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "MEDICINA FAMILIAR",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y JUEVES 9AM a 4PM"
+  },
+  {
+    "medico_id": 38,
+    "sede": "SEDE VIÑA",
+    "especialidad": "DERMATOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "JUEVES 1PM a 4PM"
+  },
+  {
+    "medico_id": 39,
+    "sede": "SEDE VIÑA",
+    "especialidad": "NEUROLOGIA PEDIATRICA",
+    "dia_semana": 5,
+    "hora_inicio": "11:00",
+    "hora_fin": "12:00",
+    "horario_raw": "VIERNES 11 AM a 12PM"
+  },
+  {
+    "medico_id": 40,
+    "sede": "SEDE VIÑA",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "VIERNES 1 PM a 4PM"
+  },
+  {
+    "medico_id": 41,
+    "sede": "SEDE SUR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "JUEVES Y SABADOS 8 AM a 12PM"
+  },
+  {
+    "medico_id": 41,
+    "sede": "SEDE SUR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 6,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "JUEVES Y SABADOS 8 AM a 12PM"
+  },
+  {
+    "medico_id": 41,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "10:00",
+    "horario_raw": "MARTES Y VIERNES 8AM a 10AM"
+  },
+  {
+    "medico_id": 41,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "10:00",
+    "horario_raw": "MARTES Y VIERNES 8AM a 10AM"
+  },
+  {
+    "medico_id": 42,
+    "sede": "SEDE NORTE",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "DE LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 42,
+    "sede": "SEDE NORTE",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "DE LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 42,
+    "sede": "SEDE NORTE",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "DE LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 42,
+    "sede": "SEDE NORTE",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "DE LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 42,
+    "sede": "SEDE NORTE",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "DE LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 43,
+    "sede": "SEDE SUR",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "11:00",
+    "horario_raw": "MIERCOLES Y JUEVES 8AM a 11AM"
+  },
+  {
+    "medico_id": 43,
+    "sede": "SEDE SUR",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "11:00",
+    "horario_raw": "MIERCOLES Y JUEVES 8AM a 11AM"
+  },
+  {
+    "medico_id": 44,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "GASTROENTEROLIGIA PEDIATRICA",
+    "dia_semana": 4,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "JUEVES 1PM a 4PM"
+  },
+  {
+    "medico_id": 44,
+    "sede": "SEDE SUR",
+    "especialidad": "GASTROENTEROLIGIA PEDIATRICA",
+    "dia_semana": 4,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "JUEVES 1PM a 4PM"
+  },
+  {
+    "medico_id": 44,
+    "sede": "SEDE VIÑA",
+    "especialidad": "GASTROENTEROLOGIA PEDIATRICA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "13:00",
+    "horario_raw": "MIERCOLES 8AM a 1PM"
+  },
+  {
+    "medico_id": 45,
+    "sede": "SEDE SUR",
+    "especialidad": "GINECOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "13:00",
+    "horario_raw": "MARTES 9AM a 1PM, VIERNES 10AM a 1PM"
+  },
+  {
+    "medico_id": 45,
+    "sede": "SEDE SUR",
+    "especialidad": "GINECOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "13:00",
+    "horario_raw": "MARTES 9AM a 1PM, VIERNES 10AM a 1PM"
+  },
+  {
+    "medico_id": 46,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES , MIERCOLES Y VIERNES 8AM a 1PM / JUEVES 1:30PM a 5PM"
+  },
+  {
+    "medico_id": 46,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES , MIERCOLES Y VIERNES 8AM a 1PM / JUEVES 1:30PM a 5PM"
+  },
+  {
+    "medico_id": 46,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES , MIERCOLES Y VIERNES 8AM a 1PM / JUEVES 1:30PM a 5PM"
+  },
+  {
+    "medico_id": 46,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 4,
+    "hora_inicio": "13:30",
+    "hora_fin": "17:00",
+    "horario_raw": "LUNES , MIERCOLES Y VIERNES 8AM a 1PM / JUEVES 1:30PM a 5PM"
+  },
+  {
+    "medico_id": 47,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "DERMATOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "13:00",
+    "horario_raw": "VIERNES DE 9AM a 1PM"
+  },
+  {
+    "medico_id": 48,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "GINECOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y MIERCOLES 1PM a 4PM / VIERNES 9 AM a 1PM"
+  },
+  {
+    "medico_id": 48,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "GINECOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y MIERCOLES 1PM a 4PM / VIERNES 9 AM a 1PM"
+  },
+  {
+    "medico_id": 48,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "GINECOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES Y MIERCOLES 1PM a 4PM / VIERNES 9 AM a 1PM"
+  },
+  {
+    "medico_id": 49,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES 8AM a 12PM"
+  },
+  {
+    "medico_id": 49,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES 8AM a 4PM Y VIERNES 7AM a 1PM"
+  },
+  {
+    "medico_id": 49,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES 8AM a 4PM Y VIERNES 7AM a 1PM"
+  },
+  {
+    "medico_id": 49,
+    "sede": "SEDE VIÑA",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 50,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y JUEVES 1PM a 4PM"
+  },
+  {
+    "medico_id": 50,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 4,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y JUEVES 1PM a 4PM"
+  },
+  {
+    "medico_id": 51,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUN, MIER Y VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 52,
+    "sede": "SEDE SUR",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 1,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 52,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 52,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 53,
+    "sede": "SEDE SUR",
+    "especialidad": "ENDOCRINOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "JUEVES 8 AM a 12PM"
+  },
+  {
+    "medico_id": 53,
+    "sede": "SEDE VIÑA",
+    "especialidad": "ENDOCRINOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES 8 AM a 12PM"
+  },
+  {
+    "medico_id": 54,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES 1PM a 4PM"
+  },
+  {
+    "medico_id": 55,
+    "sede": "SEDE SUR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 55,
+    "sede": "SEDE SUR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 55,
+    "sede": "SEDE SUR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 55,
+    "sede": "SEDE VIÑA",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y VIERNES 8 AM a 12PM"
+  },
+  {
+    "medico_id": 55,
+    "sede": "SEDE VIÑA",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y VIERNES 8 AM a 12PM"
+  },
+  {
+    "medico_id": 56,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA FAMILIAR",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "15:00",
+    "horario_raw": "MIERCOLES Y JUEVES 8AM a 3PM"
+  },
+  {
+    "medico_id": 56,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA FAMILIAR",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "15:00",
+    "horario_raw": "MIERCOLES Y JUEVES 8AM a 3PM"
+  },
+  {
+    "medico_id": 57,
+    "sede": "SEDE SUR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES YVIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 57,
+    "sede": "SEDE SUR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES YVIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 57,
+    "sede": "SEDE SUR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES YVIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 58,
+    "sede": "SEDE MARACAY",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 3,
+    "hora_inicio": "07:30",
+    "hora_fin": "12:30",
+    "horario_raw": "MARTES, MIERCOLES 7:30AM A 12:30PM"
+  },
+  {
+    "medico_id": 58,
+    "sede": "SEDE MARACAY",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 2,
+    "hora_inicio": "07:30",
+    "hora_fin": "12:30",
+    "horario_raw": "MARTES, MIERCOLES 7:30AM A 12:30PM"
+  },
+  {
+    "medico_id": 59,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 3,
+    "hora_inicio": "07:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MARTES, MIERCOLES Y JUEVES 7AM a 12PM"
+  },
+  {
+    "medico_id": 59,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 2,
+    "hora_inicio": "07:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MARTES, MIERCOLES Y JUEVES 7AM a 12PM"
+  },
+  {
+    "medico_id": 59,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 4,
+    "hora_inicio": "07:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MARTES, MIERCOLES Y JUEVES 7AM a 12PM"
+  },
+  {
+    "medico_id": 59,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 1,
+    "hora_inicio": "07:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MARTES, MIERCOLES Y JUEVES 7AM a 12PM"
+  },
+  {
+    "medico_id": 60,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "GASTROENTEROLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES DE 9AM a 12PM"
+  },
+  {
+    "medico_id": 61,
+    "sede": "SEDE MARACAY",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES 9AM a 4PM"
+  },
+  {
+    "medico_id": 62,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 5,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "VIERNES 2PM A 4PM Y SABADO 9AM A 12PM"
+  },
+  {
+    "medico_id": 62,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 6,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "VIERNES 2PM A 4PM Y SABADO 9AM A 12PM"
+  },
+  {
+    "medico_id": 63,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "11:00",
+    "horario_raw": "LUNES, MIERCOLES 9AM a 11AM Y JUEVES 9AM 10AM"
+  },
+  {
+    "medico_id": 63,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "11:00",
+    "horario_raw": "LUNES, MIERCOLES 9AM a 11AM Y JUEVES 9AM 10AM"
+  },
+  {
+    "medico_id": 63,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "09:00",
+    "hora_fin": "11:00",
+    "horario_raw": "LUNES, MIERCOLES 9AM a 11AM Y JUEVES 9AM 10AM"
+  },
+  {
+    "medico_id": 64,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 1,
+    "hora_inicio": null,
+    "hora_fin": null,
+    "horario_raw": "LUNES / VIERNES"
+  },
+  {
+    "medico_id": 64,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 5,
+    "hora_inicio": null,
+    "hora_fin": null,
+    "horario_raw": "LUNES / VIERNES"
+  },
+  {
+    "medico_id": 65,
+    "sede": "SEDE NORTE",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 65,
+    "sede": "SEDE NORTE",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 65,
+    "sede": "SEDE VIÑA",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES 8AM a 12PM"
+  },
+  {
+    "medico_id": 66,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CIRUGIA PEDIATRICA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES 9AM a 12PM"
+  },
+  {
+    "medico_id": 67,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 1,
+    "hora_inicio": "09:00",
+    "hora_fin": "10:00",
+    "horario_raw": "LUNES 9AM a 10AM"
+  },
+  {
+    "medico_id": 68,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "ALERGOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES 8AM a 12PM"
+  },
+  {
+    "medico_id": 69,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CARDIOLOGIA PEDIATRICA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "VIERNES DE 8AM a 12PM"
+  },
+  {
+    "medico_id": 70,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "FISIATRIA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES Y MIERCOLES 9AM a 12PM"
+  },
+  {
+    "medico_id": 70,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "FISIATRIA",
+    "dia_semana": 1,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES Y MIERCOLES 9AM a 12PM"
+  },
+  {
+    "medico_id": 71,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES Y MIERCOLES 8AM a 12PM"
+  },
+  {
+    "medico_id": 71,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES Y MIERCOLES 8AM a 12PM"
+  },
+  {
+    "medico_id": 72,
+    "sede": "SEDE SUR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y JUEVES 8 AM a 12PM"
+  },
+  {
+    "medico_id": 72,
+    "sede": "SEDE SUR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y JUEVES 8 AM a 12PM"
+  },
+  {
+    "medico_id": 72,
+    "sede": "SEDE SUR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y JUEVES 8 AM a 12PM"
+  },
+  {
+    "medico_id": 72,
+    "sede": "SEDE VIÑA",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES 1 PM a 4PM/ VIERNES 7 AM a 9AM"
+  },
+  {
+    "medico_id": 72,
+    "sede": "SEDE VIÑA",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 5,
+    "hora_inicio": "07:00",
+    "hora_fin": "09:00",
+    "horario_raw": "MIERCOLES 1 PM a 4PM/ VIERNES 7 AM a 9AM"
+  },
+  {
+    "medico_id": 73,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES 1PM a 4PM / JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 73,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES 1PM a 4PM / JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 74,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "UROLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "14:30",
+    "hora_fin": "17:00",
+    "horario_raw": "MARTES 2:30PM a 5PM / VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 74,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "UROLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES 2:30PM a 5PM / VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 75,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 4,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "JUEVES 1 PM a 4PM / VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 75,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "JUEVES 1 PM a 4PM / VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 76,
+    "sede": "SEDE VIÑA",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES 10AM a 12PM"
+  },
+  {
+    "medico_id": 77,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MARTES, MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 77,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MARTES, MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 77,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MARTES, MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 77,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MARTES, MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 78,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "OFTALMOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES 9AM a 12PM"
+  },
+  {
+    "medico_id": 79,
+    "sede": "SEDE SUR",
+    "especialidad": "REHABILITACION Y FISIOTERAPIA",
+    "dia_semana": 1,
+    "hora_inicio": "07:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES A VIERNES 7AM a 4PM"
+  },
+  {
+    "medico_id": 79,
+    "sede": "SEDE SUR",
+    "especialidad": "REHABILITACION Y FISIOTERAPIA",
+    "dia_semana": 2,
+    "hora_inicio": "07:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES A VIERNES 7AM a 4PM"
+  },
+  {
+    "medico_id": 79,
+    "sede": "SEDE SUR",
+    "especialidad": "REHABILITACION Y FISIOTERAPIA",
+    "dia_semana": 3,
+    "hora_inicio": "07:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES A VIERNES 7AM a 4PM"
+  },
+  {
+    "medico_id": 79,
+    "sede": "SEDE SUR",
+    "especialidad": "REHABILITACION Y FISIOTERAPIA",
+    "dia_semana": 4,
+    "hora_inicio": "07:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES A VIERNES 7AM a 4PM"
+  },
+  {
+    "medico_id": 79,
+    "sede": "SEDE SUR",
+    "especialidad": "REHABILITACION Y FISIOTERAPIA",
+    "dia_semana": 5,
+    "hora_inicio": "07:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES A VIERNES 7AM a 4PM"
+  },
+  {
+    "medico_id": 80,
+    "sede": "SEDE SUR",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "10:00",
+    "horario_raw": "MIERCOLES Y VIERNES 8AM a 10AM"
+  },
+  {
+    "medico_id": 80,
+    "sede": "SEDE SUR",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "10:00",
+    "horario_raw": "MIERCOLES Y VIERNES 8AM a 10AM"
+  },
+  {
+    "medico_id": 81,
+    "sede": "SEDE SUR",
+    "especialidad": "CIRUGIA BUCAL",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "13:00",
+    "horario_raw": "MIERCOLES 9AM a 1PM"
+  },
+  {
+    "medico_id": 82,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "REHABILITACION Y FISIOTERAPIA",
+    "dia_semana": 3,
+    "hora_inicio": "07:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES, MARTES, MIERCOLES, JUEVES Y VIERNES 7AM a 1PM"
+  },
+  {
+    "medico_id": 82,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "REHABILITACION Y FISIOTERAPIA",
+    "dia_semana": 5,
+    "hora_inicio": "07:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES, MARTES, MIERCOLES, JUEVES Y VIERNES 7AM a 1PM"
+  },
+  {
+    "medico_id": 82,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "REHABILITACION Y FISIOTERAPIA",
+    "dia_semana": 2,
+    "hora_inicio": "07:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES, MARTES, MIERCOLES, JUEVES Y VIERNES 7AM a 1PM"
+  },
+  {
+    "medico_id": 82,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "REHABILITACION Y FISIOTERAPIA",
+    "dia_semana": 4,
+    "hora_inicio": "07:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES, MARTES, MIERCOLES, JUEVES Y VIERNES 7AM a 1PM"
+  },
+  {
+    "medico_id": 82,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "REHABILITACION Y FISIOTERAPIA",
+    "dia_semana": 1,
+    "hora_inicio": "07:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES, MARTES, MIERCOLES, JUEVES Y VIERNES 7AM a 1PM"
+  },
+  {
+    "medico_id": 83,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES,MIERCOLES Y JUEVES 9:00 AM A 12:00 PM"
+  },
+  {
+    "medico_id": 83,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES,MIERCOLES Y JUEVES 9:00 AM A 12:00 PM"
+  },
+  {
+    "medico_id": 83,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES,MIERCOLES Y JUEVES 9:00 AM A 12:00 PM"
+  },
+  {
+    "medico_id": 83,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y JUVES 9AM a 12PM"
+  },
+  {
+    "medico_id": 83,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y JUVES 9AM a 12PM"
+  },
+  {
+    "medico_id": 84,
+    "sede": "SEDE VIÑA",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 5,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 84,
+    "sede": "SEDE VIÑA",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 85,
+    "sede": "SEDE VIÑA",
+    "especialidad": "UROLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "VIERNES 2PM a 4PM"
+  },
+  {
+    "medico_id": 85,
+    "sede": "SEDE SUR",
+    "especialidad": "UROLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "11:00",
+    "horario_raw": "LUNES Y JUEVES 8AM a 11AM"
+  },
+  {
+    "medico_id": 85,
+    "sede": "SEDE SUR",
+    "especialidad": "UROLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "11:00",
+    "horario_raw": "LUNES Y JUEVES 8AM a 11AM"
+  },
+  {
+    "medico_id": 86,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 86,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 86,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 87,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "GINECOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES 1PM a 4PM"
+  },
+  {
+    "medico_id": 88,
+    "sede": "SEDE SUR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES , Y VIERNES 8 AM a 12PM"
+  },
+  {
+    "medico_id": 88,
+    "sede": "SEDE SUR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES , Y VIERNES 8 AM a 12PM"
+  },
+  {
+    "medico_id": 89,
+    "sede": "SEDE VIÑA",
+    "especialidad": "UROLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y MIERCOLES 2PM a 4PM"
+  },
+  {
+    "medico_id": 89,
+    "sede": "SEDE VIÑA",
+    "especialidad": "UROLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y MIERCOLES 2PM a 4PM"
+  },
+  {
+    "medico_id": 90,
+    "sede": "SEDE MARACAY",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 90,
+    "sede": "SEDE MARACAY",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 91,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "GINECOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 92,
+    "sede": "SEDE MARACAY",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:30",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 9AM a 12:30PM"
+  },
+  {
+    "medico_id": 92,
+    "sede": "SEDE MARACAY",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:30",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 9AM a 12:30PM"
+  },
+  {
+    "medico_id": 92,
+    "sede": "SEDE MARACAY",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:30",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 9AM a 12:30PM"
+  },
+  {
+    "medico_id": 93,
+    "sede": "SEDE MARACAY",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES, JUEVES Y VIERNES 8AM a 1PM"
+  },
+  {
+    "medico_id": 93,
+    "sede": "SEDE MARACAY",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES, JUEVES Y VIERNES 8AM a 1PM"
+  },
+  {
+    "medico_id": 93,
+    "sede": "SEDE MARACAY",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES, JUEVES Y VIERNES 8AM a 1PM"
+  },
+  {
+    "medico_id": 94,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES, MARTES, JUEVES Y VIERNES 8AM a 4PM"
+  },
+  {
+    "medico_id": 94,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES, MARTES, JUEVES Y VIERNES 8AM a 4PM"
+  },
+  {
+    "medico_id": 94,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES, MARTES, JUEVES Y VIERNES 8AM a 4PM"
+  },
+  {
+    "medico_id": 94,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES, MARTES, JUEVES Y VIERNES 8AM a 4PM"
+  },
+  {
+    "medico_id": 95,
+    "sede": "SEDE SUR",
+    "especialidad": "OFTALMOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES MARTES JUEVES Y VIERNES 10AM a 1PM"
+  },
+  {
+    "medico_id": 95,
+    "sede": "SEDE SUR",
+    "especialidad": "OFTALMOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES MARTES JUEVES Y VIERNES 10AM a 1PM"
+  },
+  {
+    "medico_id": 95,
+    "sede": "SEDE SUR",
+    "especialidad": "OFTALMOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES MARTES JUEVES Y VIERNES 10AM a 1PM"
+  },
+  {
+    "medico_id": 95,
+    "sede": "SEDE SUR",
+    "especialidad": "OFTALMOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES MARTES JUEVES Y VIERNES 10AM a 1PM"
+  },
+  {
+    "medico_id": 96,
+    "sede": "SEDE NORTE",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "14:00",
+    "horario_raw": "MIERCOLES Y VIERNES 1PM a 2PM"
+  },
+  {
+    "medico_id": 96,
+    "sede": "SEDE NORTE",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "13:00",
+    "hora_fin": "14:00",
+    "horario_raw": "MIERCOLES Y VIERNES 1PM a 2PM"
+  },
+  {
+    "medico_id": 97,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES 1PM a 4PM"
+  },
+  {
+    "medico_id": 98,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 98,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 98,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 99,
+    "sede": "SEDE VIÑA",
+    "especialidad": "NEUROCIRUGIA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES 1PM a 4PM"
+  },
+  {
+    "medico_id": 100,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA FAMILIAR",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "14:00",
+    "horario_raw": "LUNES Y MARTES 8AM a 2PM"
+  },
+  {
+    "medico_id": 100,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA FAMILIAR",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "14:00",
+    "horario_raw": "LUNES Y MARTES 8AM a 2PM"
+  },
+  {
+    "medico_id": 101,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES Y VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 101,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 5,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES Y VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 102,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "UROLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES 8AM a 12PM"
+  },
+  {
+    "medico_id": 103,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "NEFROLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 103,
+    "sede": "SEDE SUR",
+    "especialidad": "NEFROLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "00:00",
+    "horario_raw": "MARTES 8AM a 12AM"
+  },
+  {
+    "medico_id": 103,
+    "sede": "SEDE VIÑA",
+    "especialidad": "NEFROLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 104,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GASTROENTEROLOGO",
+    "dia_semana": 1,
+    "hora_inicio": "08:30",
+    "hora_fin": "17:00",
+    "horario_raw": "LUNES 8:30AM a 5PM/ MARTES Y MIERCOLES 7:40AM a 3PM/JUEVES 9:30AM a 3PM, VIERNES 8:30AM a 3PM"
+  },
+  {
+    "medico_id": 104,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GASTROENTEROLOGO",
+    "dia_semana": 3,
+    "hora_inicio": "07:40",
+    "hora_fin": "15:00",
+    "horario_raw": "LUNES 8:30AM a 5PM/ MARTES Y MIERCOLES 7:40AM a 3PM/JUEVES 9:30AM a 3PM, VIERNES 8:30AM a 3PM"
+  },
+  {
+    "medico_id": 104,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GASTROENTEROLOGO",
+    "dia_semana": 2,
+    "hora_inicio": "07:40",
+    "hora_fin": "15:00",
+    "horario_raw": "LUNES 8:30AM a 5PM/ MARTES Y MIERCOLES 7:40AM a 3PM/JUEVES 9:30AM a 3PM, VIERNES 8:30AM a 3PM"
+  },
+  {
+    "medico_id": 104,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GASTROENTEROLOGO",
+    "dia_semana": 5,
+    "hora_inicio": "09:30",
+    "hora_fin": "15:00",
+    "horario_raw": "LUNES 8:30AM a 5PM/ MARTES Y MIERCOLES 7:40AM a 3PM/JUEVES 9:30AM a 3PM, VIERNES 8:30AM a 3PM"
+  },
+  {
+    "medico_id": 104,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GASTROENTEROLOGO",
+    "dia_semana": 4,
+    "hora_inicio": "09:30",
+    "hora_fin": "15:00",
+    "horario_raw": "LUNES 8:30AM a 5PM/ MARTES Y MIERCOLES 7:40AM a 3PM/JUEVES 9:30AM a 3PM, VIERNES 8:30AM a 3PM"
+  },
+  {
+    "medico_id": 105,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y JUEVES 1PM a 4PM"
+  },
+  {
+    "medico_id": 105,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 4,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y JUEVES 1PM a 4PM"
+  },
+  {
+    "medico_id": 106,
+    "sede": "SEDE MARACAY",
+    "especialidad": "NEFROLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES 9AM a 12PM /JUEVES 1:30PM a 3PM"
+  },
+  {
+    "medico_id": 106,
+    "sede": "SEDE MARACAY",
+    "especialidad": "NEFROLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "13:30",
+    "hora_fin": "15:00",
+    "horario_raw": "MARTES 9AM a 12PM /JUEVES 1:30PM a 3PM"
+  },
+  {
+    "medico_id": 107,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 4,
+    "hora_inicio": "07:00",
+    "hora_fin": "12:00",
+    "horario_raw": "JUEVES 7AM a 12PM"
+  },
+  {
+    "medico_id": 108,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y MIERCOLES 8AM a 12PM"
+  },
+  {
+    "medico_id": 108,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y MIERCOLES 8AM a 12PM"
+  },
+  {
+    "medico_id": 109,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CIRUGIA CARDIOVASCULAR",
+    "dia_semana": 4,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "JUEVES 2PM a 4PM"
+  },
+  {
+    "medico_id": 110,
+    "sede": "SEDE SUR",
+    "especialidad": "ODONTOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "11:30",
+    "horario_raw": "LUNES Y MARTES 8AM a 11:30AM"
+  },
+  {
+    "medico_id": 110,
+    "sede": "SEDE SUR",
+    "especialidad": "ODONTOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "11:30",
+    "horario_raw": "LUNES Y MARTES 8AM a 11:30AM"
+  },
+  {
+    "medico_id": 111,
+    "sede": "SEDE VIÑA",
+    "especialidad": "REUMATOLOGIA",
+    "dia_semana": 6,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "SABADO 8AM a 12PM"
+  },
+  {
+    "medico_id": 112,
+    "sede": "SEDE VIÑA",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES, JUEVES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 112,
+    "sede": "SEDE VIÑA",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES, JUEVES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 112,
+    "sede": "SEDE VIÑA",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES, JUEVES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 112,
+    "sede": "SEDE VIÑA",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES, JUEVES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 113,
+    "sede": "SEDE VIÑA",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 1,
+    "hora_inicio": "12:00",
+    "hora_fin": "14:00",
+    "horario_raw": "LUNES 12 PM a 2PM / MARTES 8AM a 12PM / MIERCOLES 10 AM a 12PM"
+  },
+  {
+    "medico_id": 113,
+    "sede": "SEDE VIÑA",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES 12 PM a 2PM / MARTES 8AM a 12PM / MIERCOLES 10 AM a 12PM"
+  },
+  {
+    "medico_id": 113,
+    "sede": "SEDE VIÑA",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 3,
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES 12 PM a 2PM / MARTES 8AM a 12PM / MIERCOLES 10 AM a 12PM"
+  },
+  {
+    "medico_id": 114,
+    "sede": "SEDE VIÑA",
+    "especialidad": "FISIOTERAPIA",
+    "dia_semana": 1,
+    "hora_inicio": "07:00",
+    "hora_fin": "16:00",
+    "horario_raw": "DE LUNES a VIERNES 7AM a 4PM"
+  },
+  {
+    "medico_id": 114,
+    "sede": "SEDE VIÑA",
+    "especialidad": "FISIOTERAPIA",
+    "dia_semana": 2,
+    "hora_inicio": "07:00",
+    "hora_fin": "16:00",
+    "horario_raw": "DE LUNES a VIERNES 7AM a 4PM"
+  },
+  {
+    "medico_id": 114,
+    "sede": "SEDE VIÑA",
+    "especialidad": "FISIOTERAPIA",
+    "dia_semana": 3,
+    "hora_inicio": "07:00",
+    "hora_fin": "16:00",
+    "horario_raw": "DE LUNES a VIERNES 7AM a 4PM"
+  },
+  {
+    "medico_id": 114,
+    "sede": "SEDE VIÑA",
+    "especialidad": "FISIOTERAPIA",
+    "dia_semana": 4,
+    "hora_inicio": "07:00",
+    "hora_fin": "16:00",
+    "horario_raw": "DE LUNES a VIERNES 7AM a 4PM"
+  },
+  {
+    "medico_id": 114,
+    "sede": "SEDE VIÑA",
+    "especialidad": "FISIOTERAPIA",
+    "dia_semana": 5,
+    "hora_inicio": "07:00",
+    "hora_fin": "16:00",
+    "horario_raw": "DE LUNES a VIERNES 7AM a 4PM"
+  },
+  {
+    "medico_id": 115,
+    "sede": "SEDE SUR",
+    "especialidad": "CIRUGIA PEDIATRICA",
+    "dia_semana": 3,
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES 10AM a 12PM"
+  },
+  {
+    "medico_id": 115,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CIRUGIA PEDIATRICA",
+    "dia_semana": 5,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "VIERNES 2PM a 4PM"
+  },
+  {
+    "medico_id": 116,
+    "sede": "SEDE SUR",
+    "especialidad": "UROLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "10:30",
+    "hora_fin": "12:30",
+    "horario_raw": "MIERCOLES 10:30AM a 12:30PM"
+  },
+  {
+    "medico_id": 117,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 3,
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "horario_raw": "MIERCOLES Y VIERNES 10AM a 1PM"
+  },
+  {
+    "medico_id": 117,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 5,
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "horario_raw": "MIERCOLES Y VIERNES 10AM a 1PM"
+  },
+  {
+    "medico_id": 118,
+    "sede": "SEDE MARACAY",
+    "especialidad": "OFTALMOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 119,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 2,
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES Y MARTES 10AM a 12PM"
+  },
+  {
+    "medico_id": 119,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 1,
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES Y MARTES 10AM a 12PM"
+  },
+  {
+    "medico_id": 120,
+    "sede": "SEDE MARACAY",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 120,
+    "sede": "SEDE MARACAY",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 121,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "NUTRICION",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES 9AM a 12PM"
+  },
+  {
+    "medico_id": 122,
+    "sede": "SEDE SUR",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 2,
+    "hora_inicio": "11:00",
+    "hora_fin": "14:00",
+    "horario_raw": "MARTES 11AM a 2PM"
+  },
+  {
+    "medico_id": 122,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 122,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 123,
+    "sede": "SEDE SUR",
+    "especialidad": "CIRUGIA PEDIATRICA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES 8AM a 12pm"
+  },
+  {
+    "medico_id": 124,
+    "sede": "SEDE MARACAY",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 124,
+    "sede": "SEDE MARACAY",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 125,
+    "sede": "SEDE SUR",
+    "especialidad": "MASTOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES 1PM a 4PM"
+  },
+  {
+    "medico_id": 125,
+    "sede": "SEDE VIÑA",
+    "especialidad": "MASTOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "15:00",
+    "horario_raw": "LUNES 1PM a 3PM"
+  },
+  {
+    "medico_id": 126,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES 1PM a 4PM"
+  },
+  {
+    "medico_id": 127,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 5,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y VIERNES DE 1PM a 4PM"
+  },
+  {
+    "medico_id": 127,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y VIERNES DE 1PM a 4PM"
+  },
+  {
+    "medico_id": 128,
+    "sede": "SEDE NORTE",
+    "especialidad": "MEDICINA FAMILIAR",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "DE LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 128,
+    "sede": "SEDE NORTE",
+    "especialidad": "MEDICINA FAMILIAR",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "DE LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 128,
+    "sede": "SEDE NORTE",
+    "especialidad": "MEDICINA FAMILIAR",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "DE LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 128,
+    "sede": "SEDE NORTE",
+    "especialidad": "MEDICINA FAMILIAR",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "DE LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 128,
+    "sede": "SEDE NORTE",
+    "especialidad": "MEDICINA FAMILIAR",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "DE LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 129,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y JUEVES 9AM a 12PM"
+  },
+  {
+    "medico_id": 129,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y JUEVES 9AM a 12PM"
+  },
+  {
+    "medico_id": 130,
+    "sede": "SEDE NORTE",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y VIERNES 2PM a 4PM"
+  },
+  {
+    "medico_id": 130,
+    "sede": "SEDE NORTE",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y VIERNES 2PM a 4PM"
+  },
+  {
+    "medico_id": 130,
+    "sede": "SEDE SUR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "13:00",
+    "horario_raw": "MIERCOLES 9AM a 1PM"
+  },
+  {
+    "medico_id": 131,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES 1PM a 4PM"
+  },
+  {
+    "medico_id": 132,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "OFTALMOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES 8AM a 12PM"
+  },
+  {
+    "medico_id": 133,
+    "sede": "SEDE SUR",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "10:30",
+    "hora_fin": "12:00",
+    "horario_raw": "VIERNES 10:30AM a 12:00PM"
+  },
+  {
+    "medico_id": 133,
+    "sede": "SEDE VIÑA",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "10:30",
+    "hora_fin": "12:30",
+    "horario_raw": "MIERCOLES 10:30AM a 12:30PM"
+  },
+  {
+    "medico_id": 134,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 134,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 135,
+    "sede": "SEDE MARACAY",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:30",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES 8:30AM a 12PM"
+  },
+  {
+    "medico_id": 136,
+    "sede": "SEDE MARACAY",
+    "especialidad": "FISIATRIA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 136,
+    "sede": "SEDE MARACAY",
+    "especialidad": "FISIATRIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 136,
+    "sede": "SEDE MARACAY",
+    "especialidad": "FISIATRIA",
+    "dia_semana": 1,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 137,
+    "sede": "SEDE VIÑA",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES Y JUEVES 1PM a 4PM"
+  },
+  {
+    "medico_id": 137,
+    "sede": "SEDE VIÑA",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES Y JUEVES 1PM a 4PM"
+  },
+  {
+    "medico_id": 137,
+    "sede": "SEDE SUR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "14:00",
+    "horario_raw": "LUNES, MARTES Y JUEVES 8 AM a 2PM"
+  },
+  {
+    "medico_id": 137,
+    "sede": "SEDE SUR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "14:00",
+    "horario_raw": "LUNES, MARTES Y JUEVES 8 AM a 2PM"
+  },
+  {
+    "medico_id": 137,
+    "sede": "SEDE SUR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "14:00",
+    "horario_raw": "LUNES, MARTES Y JUEVES 8 AM a 2PM"
+  },
+  {
+    "medico_id": 138,
+    "sede": "SEDE SUR",
+    "especialidad": "COLOPROCTOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "09:00",
+    "horario_raw": "MARTES 8AM a 9AM / VIERNES 10AM a 11AM"
+  },
+  {
+    "medico_id": 138,
+    "sede": "SEDE SUR",
+    "especialidad": "COLOPROCTOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "10:00",
+    "hora_fin": "11:00",
+    "horario_raw": "MARTES 8AM a 9AM / VIERNES 10AM a 11AM"
+  },
+  {
+    "medico_id": 139,
+    "sede": "SEDE SUR",
+    "especialidad": "ODONTOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "07:00",
+    "hora_fin": "11:30",
+    "horario_raw": "DE LUNES A VIERNES DE 7AM A 11:30AM"
+  },
+  {
+    "medico_id": 139,
+    "sede": "SEDE SUR",
+    "especialidad": "ODONTOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "07:00",
+    "hora_fin": "11:30",
+    "horario_raw": "DE LUNES A VIERNES DE 7AM A 11:30AM"
+  },
+  {
+    "medico_id": 139,
+    "sede": "SEDE SUR",
+    "especialidad": "ODONTOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "07:00",
+    "hora_fin": "11:30",
+    "horario_raw": "DE LUNES A VIERNES DE 7AM A 11:30AM"
+  },
+  {
+    "medico_id": 139,
+    "sede": "SEDE SUR",
+    "especialidad": "ODONTOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "07:00",
+    "hora_fin": "11:30",
+    "horario_raw": "DE LUNES A VIERNES DE 7AM A 11:30AM"
+  },
+  {
+    "medico_id": 139,
+    "sede": "SEDE SUR",
+    "especialidad": "ODONTOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "07:00",
+    "hora_fin": "11:30",
+    "horario_raw": "DE LUNES A VIERNES DE 7AM A 11:30AM"
+  },
+  {
+    "medico_id": 140,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "PSICOLOGIA CLINICA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "13:00",
+    "horario_raw": "VIERNES 9AM a 1PM"
+  },
+  {
+    "medico_id": 141,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "NEUROCIRUGIA",
+    "dia_semana": 5,
+    "hora_inicio": null,
+    "hora_fin": null,
+    "horario_raw": "VIERNES (UNA VEZ AL MES)"
+  },
+  {
+    "medico_id": 142,
+    "sede": "SEDE VIÑA",
+    "especialidad": "INFECTOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "10:00",
+    "horario_raw": "JUEVES 8AM a 10AM / VIERNES 8AM a 10AM"
+  },
+  {
+    "medico_id": 142,
+    "sede": "SEDE VIÑA",
+    "especialidad": "INFECTOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "10:00",
+    "horario_raw": "JUEVES 8AM a 10AM / VIERNES 8AM a 10AM"
+  },
+  {
+    "medico_id": 143,
+    "sede": "SEDE MARACAY",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 143,
+    "sede": "SEDE MARACAY",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 144,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "PSICOLOGIA CLINICA",
+    "dia_semana": 3,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES,JUEVES Y VIERNES 2PM a 4PM"
+  },
+  {
+    "medico_id": 144,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "PSICOLOGIA CLINICA",
+    "dia_semana": 5,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES,JUEVES Y VIERNES 2PM a 4PM"
+  },
+  {
+    "medico_id": 144,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "PSICOLOGIA CLINICA",
+    "dia_semana": 4,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES,JUEVES Y VIERNES 2PM a 4PM"
+  },
+  {
+    "medico_id": 145,
+    "sede": "SEDE NORTE",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 1PM A PM / JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 145,
+    "sede": "SEDE NORTE",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 5,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 1PM A PM / JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 145,
+    "sede": "SEDE NORTE",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 1PM A PM / JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 145,
+    "sede": "SEDE NORTE",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 1PM A PM / JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 146,
+    "sede": "SEDE MARACAY",
+    "especialidad": "HEMATOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "JUEVES 2PM a 4PM"
+  },
+  {
+    "medico_id": 147,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y MIERCOLES DE 9AM a 12PM"
+  },
+  {
+    "medico_id": 147,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y MIERCOLES DE 9AM a 12PM"
+  },
+  {
+    "medico_id": 148,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 7,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "SABADOS Y DOMINGO 9AM a 12PM"
+  },
+  {
+    "medico_id": 148,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 6,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "SABADOS Y DOMINGO 9AM a 12PM"
+  },
+  {
+    "medico_id": 149,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 3,
+    "hora_inicio": "11:30",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y MIERCOLES 11:30 AM a 4PM / MARTES, JUEVES Y VIERNES 8AM a 11:30AM"
+  },
+  {
+    "medico_id": 149,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 1,
+    "hora_inicio": "11:30",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y MIERCOLES 11:30 AM a 4PM / MARTES, JUEVES Y VIERNES 8AM a 11:30AM"
+  },
+  {
+    "medico_id": 149,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "11:30",
+    "horario_raw": "LUNES Y MIERCOLES 11:30 AM a 4PM / MARTES, JUEVES Y VIERNES 8AM a 11:30AM"
+  },
+  {
+    "medico_id": 149,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "11:30",
+    "horario_raw": "LUNES Y MIERCOLES 11:30 AM a 4PM / MARTES, JUEVES Y VIERNES 8AM a 11:30AM"
+  },
+  {
+    "medico_id": 149,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "11:30",
+    "horario_raw": "LUNES Y MIERCOLES 11:30 AM a 4PM / MARTES, JUEVES Y VIERNES 8AM a 11:30AM"
+  },
+  {
+    "medico_id": 150,
+    "sede": "SEDE VIÑA",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:30",
+    "hora_fin": "11:00",
+    "horario_raw": "LUNES Y JUEVES 8:30 AM a 11AM"
+  },
+  {
+    "medico_id": 150,
+    "sede": "SEDE VIÑA",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:30",
+    "hora_fin": "11:00",
+    "horario_raw": "LUNES Y JUEVES 8:30 AM a 11AM"
+  },
+  {
+    "medico_id": 151,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "CIRUGIA PEDIATRICA",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES 1PM a 4PM"
+  },
+  {
+    "medico_id": 152,
+    "sede": "SEDE SUR",
+    "especialidad": "NEUROCIRUGIA",
+    "dia_semana": 2,
+    "hora_inicio": "10:30",
+    "hora_fin": "13:00",
+    "horario_raw": "MARTES Y JUEVES 10:30AM a 1PM"
+  },
+  {
+    "medico_id": 152,
+    "sede": "SEDE SUR",
+    "especialidad": "NEUROCIRUGIA",
+    "dia_semana": 4,
+    "hora_inicio": "10:30",
+    "hora_fin": "13:00",
+    "horario_raw": "MARTES Y JUEVES 10:30AM a 1PM"
+  },
+  {
+    "medico_id": 153,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y JUEVES 1PM a 4PM"
+  },
+  {
+    "medico_id": 153,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 4,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y JUEVES 1PM a 4PM"
+  },
+  {
+    "medico_id": 154,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "FISIOTERAPEUTA",
+    "dia_semana": 1,
+    "hora_inicio": "12:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES a VIERNES 12PM a 4PM"
+  },
+  {
+    "medico_id": 154,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "FISIOTERAPEUTA",
+    "dia_semana": 2,
+    "hora_inicio": "12:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES a VIERNES 12PM a 4PM"
+  },
+  {
+    "medico_id": 154,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "FISIOTERAPEUTA",
+    "dia_semana": 3,
+    "hora_inicio": "12:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES a VIERNES 12PM a 4PM"
+  },
+  {
+    "medico_id": 154,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "FISIOTERAPEUTA",
+    "dia_semana": 4,
+    "hora_inicio": "12:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES a VIERNES 12PM a 4PM"
+  },
+  {
+    "medico_id": 154,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "FISIOTERAPEUTA",
+    "dia_semana": 5,
+    "hora_inicio": "12:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES a VIERNES 12PM a 4PM"
+  },
+  {
+    "medico_id": 155,
+    "sede": "SEDE VIÑA",
+    "especialidad": "ALERGOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES 1PM a 4PM"
+  },
+  {
+    "medico_id": 155,
+    "sede": "SEDE VIÑA",
+    "especialidad": "INMUNOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES 1PM a 4PM"
+  },
+  {
+    "medico_id": 156,
+    "sede": "SEDE NORTE",
+    "especialidad": "DERMATOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "JUEVES 2PM a 4PM / VIERNES 8AM a 10AM"
+  },
+  {
+    "medico_id": 156,
+    "sede": "SEDE NORTE",
+    "especialidad": "DERMATOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "10:00",
+    "horario_raw": "JUEVES 2PM a 4PM / VIERNES 8AM a 10AM"
+  },
+  {
+    "medico_id": 156,
+    "sede": "SEDE SUR",
+    "especialidad": "DERMATOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "14:00",
+    "horario_raw": "LUNES Y JUEVES 8AM a 2PM"
+  },
+  {
+    "medico_id": 156,
+    "sede": "SEDE SUR",
+    "especialidad": "DERMATOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "14:00",
+    "horario_raw": "LUNES Y JUEVES 8AM a 2PM"
+  },
+  {
+    "medico_id": 157,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, JUEVES Y VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 157,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, JUEVES Y VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 157,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, JUEVES Y VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 158,
+    "sede": "SEDE NORTE",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES, JUEVES Y VIERNES 2PM a 4PM"
+  },
+  {
+    "medico_id": 158,
+    "sede": "SEDE NORTE",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES, JUEVES Y VIERNES 2PM a 4PM"
+  },
+  {
+    "medico_id": 158,
+    "sede": "SEDE NORTE",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES, JUEVES Y VIERNES 2PM a 4PM"
+  },
+  {
+    "medico_id": 158,
+    "sede": "SEDE SUR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES 1 PM a 4PM"
+  },
+  {
+    "medico_id": 159,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "MEDICINA OCUPACIONAL",
+    "dia_semana": 3,
+    "hora_inicio": "07:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES,MIERCOLES Y VIERNES 7AM a 12PM"
+  },
+  {
+    "medico_id": 159,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "MEDICINA OCUPACIONAL",
+    "dia_semana": 5,
+    "hora_inicio": "07:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES,MIERCOLES Y VIERNES 7AM a 12PM"
+  },
+  {
+    "medico_id": 159,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "MEDICINA OCUPACIONAL",
+    "dia_semana": 1,
+    "hora_inicio": "07:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES,MIERCOLES Y VIERNES 7AM a 12PM"
+  },
+  {
+    "medico_id": 160,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "FISIATRIA",
+    "dia_semana": 5,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES, JUEVES Y VIERNES 1PM a 4PM/ MARTES 8AM a 4PM"
+  },
+  {
+    "medico_id": 160,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "FISIATRIA",
+    "dia_semana": 4,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES, JUEVES Y VIERNES 1PM a 4PM/ MARTES 8AM a 4PM"
+  },
+  {
+    "medico_id": 160,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "FISIATRIA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES, JUEVES Y VIERNES 1PM a 4PM/ MARTES 8AM a 4PM"
+  },
+  {
+    "medico_id": 160,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "FISIATRIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES, JUEVES Y VIERNES 1PM a 4PM/ MARTES 8AM a 4PM"
+  },
+  {
+    "medico_id": 161,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y JUEVES 1PM a 4PM / VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 161,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y JUEVES 1PM a 4PM / VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 161,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y JUEVES 1PM a 4PM / VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 162,
+    "sede": "SEDE SUR",
+    "especialidad": "HEMATOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 162,
+    "sede": "SEDE VIÑA",
+    "especialidad": "HEMATÓLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES 2PM a 4PM"
+  },
+  {
+    "medico_id": 163,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y JUEVES 9AM a 12PM"
+  },
+  {
+    "medico_id": 163,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y JUEVES 9AM a 12PM"
+  },
+  {
+    "medico_id": 164,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES, MIERCOLES, JUEVES Y VIERNES 8AM a 4PM"
+  },
+  {
+    "medico_id": 164,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES, MIERCOLES, JUEVES Y VIERNES 8AM a 4PM"
+  },
+  {
+    "medico_id": 164,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES, MIERCOLES, JUEVES Y VIERNES 8AM a 4PM"
+  },
+  {
+    "medico_id": 164,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES, MIERCOLES, JUEVES Y VIERNES 8AM a 4PM"
+  },
+  {
+    "medico_id": 165,
+    "sede": "SEDE MARACAY",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 165,
+    "sede": "SEDE MARACAY",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 165,
+    "sede": "SEDE MARACAY",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 166,
+    "sede": "SEDE NORTE",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 166,
+    "sede": "SEDE NORTE",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 167,
+    "sede": "SEDE SUR",
+    "especialidad": "DERMATOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "VIERNES 8 AM a 12PM"
+  },
+  {
+    "medico_id": 168,
+    "sede": "SEDE SUR",
+    "especialidad": "GASTROENTEROLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y VIERNES 2PM a 4PM"
+  },
+  {
+    "medico_id": 168,
+    "sede": "SEDE SUR",
+    "especialidad": "GASTROENTEROLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y VIERNES 2PM a 4PM"
+  },
+  {
+    "medico_id": 169,
+    "sede": "SEDE SUR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y MIERCOLES 1PM a 4PM, MARTES, JUEVES Y VIERNES 8AM A 12PM"
+  },
+  {
+    "medico_id": 169,
+    "sede": "SEDE SUR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 5,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y MIERCOLES 1PM a 4PM, MARTES, JUEVES Y VIERNES 8AM A 12PM"
+  },
+  {
+    "medico_id": 169,
+    "sede": "SEDE SUR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y MIERCOLES 1PM a 4PM, MARTES, JUEVES Y VIERNES 8AM A 12PM"
+  },
+  {
+    "medico_id": 169,
+    "sede": "SEDE SUR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 4,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y MIERCOLES 1PM a 4PM, MARTES, JUEVES Y VIERNES 8AM A 12PM"
+  },
+  {
+    "medico_id": 169,
+    "sede": "SEDE SUR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y MIERCOLES 1PM a 4PM, MARTES, JUEVES Y VIERNES 8AM A 12PM"
+  },
+  {
+    "medico_id": 170,
+    "sede": "SEDE VIÑA",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y MIERCOLES 1PM a 4PM"
+  },
+  {
+    "medico_id": 170,
+    "sede": "SEDE VIÑA",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y MIERCOLES 1PM a 4PM"
+  },
+  {
+    "medico_id": 171,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES 9AM a 12PM"
+  },
+  {
+    "medico_id": 172,
+    "sede": "SEDE MARACAY",
+    "especialidad": "PSICOLOGIA CLINICA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "15:00",
+    "horario_raw": "LUNES, MIERCOLES Y JUEVES 1PM a 3PM"
+  },
+  {
+    "medico_id": 172,
+    "sede": "SEDE MARACAY",
+    "especialidad": "PSICOLOGIA CLINICA",
+    "dia_semana": 4,
+    "hora_inicio": "13:00",
+    "hora_fin": "15:00",
+    "horario_raw": "LUNES, MIERCOLES Y JUEVES 1PM a 3PM"
+  },
+  {
+    "medico_id": 172,
+    "sede": "SEDE MARACAY",
+    "especialidad": "PSICOLOGIA CLINICA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "15:00",
+    "horario_raw": "LUNES, MIERCOLES Y JUEVES 1PM a 3PM"
+  },
+  {
+    "medico_id": 173,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "11:30",
+    "horario_raw": "LUNES Y MIERCOLES 8AM a 11:30 AM / MARTES, JUEVES Y VIERNES 11:30AM a 5PM"
+  },
+  {
+    "medico_id": 173,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "11:30",
+    "horario_raw": "LUNES Y MIERCOLES 8AM a 11:30 AM / MARTES, JUEVES Y VIERNES 11:30AM a 5PM"
+  },
+  {
+    "medico_id": 173,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 5,
+    "hora_inicio": "11:30",
+    "hora_fin": "17:00",
+    "horario_raw": "LUNES Y MIERCOLES 8AM a 11:30 AM / MARTES, JUEVES Y VIERNES 11:30AM a 5PM"
+  },
+  {
+    "medico_id": 173,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 2,
+    "hora_inicio": "11:30",
+    "hora_fin": "17:00",
+    "horario_raw": "LUNES Y MIERCOLES 8AM a 11:30 AM / MARTES, JUEVES Y VIERNES 11:30AM a 5PM"
+  },
+  {
+    "medico_id": 173,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 4,
+    "hora_inicio": "11:30",
+    "hora_fin": "17:00",
+    "horario_raw": "LUNES Y MIERCOLES 8AM a 11:30 AM / MARTES, JUEVES Y VIERNES 11:30AM a 5PM"
+  },
+  {
+    "medico_id": 174,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES,MIERCOLES Y JUEVES 9AM a 12PM"
+  },
+  {
+    "medico_id": 174,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES,MIERCOLES Y JUEVES 9AM a 12PM"
+  },
+  {
+    "medico_id": 174,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 1,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES,MIERCOLES Y JUEVES 9AM a 12PM"
+  },
+  {
+    "medico_id": 175,
+    "sede": "SEDE MARACAY",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00",
+    "horario_raw": "JUEVES Y VIERNES 9AM a 2PM"
+  },
+  {
+    "medico_id": 175,
+    "sede": "SEDE MARACAY",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00",
+    "horario_raw": "JUEVES Y VIERNES 9AM a 2PM"
+  },
+  {
+    "medico_id": 176,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "NEUMONOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES 1PM a 4PM"
+  },
+  {
+    "medico_id": 177,
+    "sede": "SEDE MARACAY",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 2,
+    "hora_inicio": "07:30",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y JUEVES 7:30AM a 12PM"
+  },
+  {
+    "medico_id": 177,
+    "sede": "SEDE MARACAY",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 4,
+    "hora_inicio": "07:30",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y JUEVES 7:30AM a 12PM"
+  },
+  {
+    "medico_id": 178,
+    "sede": "SEDE SUR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES, MIERCOLES 8 AM a 12PM"
+  },
+  {
+    "medico_id": 178,
+    "sede": "SEDE SUR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES, MIERCOLES 8 AM a 12PM"
+  },
+  {
+    "medico_id": 179,
+    "sede": "SEDE NORTE",
+    "especialidad": "DERMATOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 179,
+    "sede": "SEDE SUR",
+    "especialidad": "DERMATOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES 1 PM a 4PM"
+  },
+  {
+    "medico_id": 180,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA FAMILIAR",
+    "dia_semana": 2,
+    "hora_inicio": "07:00",
+    "hora_fin": "15:00",
+    "horario_raw": "LUNES Y MARTES 7AM a 3PM"
+  },
+  {
+    "medico_id": 180,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA FAMILIAR",
+    "dia_semana": 1,
+    "hora_inicio": "07:00",
+    "hora_fin": "15:00",
+    "horario_raw": "LUNES Y MARTES 7AM a 3PM"
+  },
+  {
+    "medico_id": 181,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "GASTROENTEROLOGIA PEDIATRICA",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES 1PM a 4PM"
+  },
+  {
+    "medico_id": 182,
+    "sede": "SEDE MARACAY",
+    "especialidad": "NEUMONOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "13:30",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES 1:30PM a 4PM"
+  },
+  {
+    "medico_id": 183,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "GASTROENTEROLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "JUEVES 9AM a 12PM"
+  },
+  {
+    "medico_id": 184,
+    "sede": "SEDE NORTE",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 184,
+    "sede": "SEDE VIÑA",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 185,
+    "sede": "SEDE MARACAY",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 186,
+    "sede": "SEDE SUR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES 8AM a 12PM"
+  },
+  {
+    "medico_id": 186,
+    "sede": "SEDE VIÑA",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES 9AM a 12PM"
+  },
+  {
+    "medico_id": 187,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 187,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 188,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "RADIOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES a VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 188,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "RADIOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES a VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 188,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "RADIOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES a VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 188,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "RADIOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES a VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 188,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "RADIOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES a VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 189,
+    "sede": "SEDE SUR",
+    "especialidad": "ODONTOLOGIA PEDIATRICA",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "11:30",
+    "horario_raw": "JUEVES 9AM a 11:30AM"
+  },
+  {
+    "medico_id": 190,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 1,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES A VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 190,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES A VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 190,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES A VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 190,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES A VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 190,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES A VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 191,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CIRUGIA CARDIOVASCULAR",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MIERCOLES 1PM a 4PM"
+  },
+  {
+    "medico_id": 192,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "10:00",
+    "horario_raw": "LUNES 8AM a 10AM"
+  },
+  {
+    "medico_id": 193,
+    "sede": "SEDE NORTE",
+    "especialidad": "ENDOCRINOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "horario_raw": "JUEVES 10AM a 12PM"
+  },
+  {
+    "medico_id": 193,
+    "sede": "SEDE VIÑA",
+    "especialidad": "ENDOCRINOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES Y MIERCOLES 10AM a 12PM"
+  },
+  {
+    "medico_id": 193,
+    "sede": "SEDE VIÑA",
+    "especialidad": "ENDOCRINOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES Y MIERCOLES 10AM a 12PM"
+  },
+  {
+    "medico_id": 194,
+    "sede": "SEDE SUR",
+    "especialidad": "ODONTOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "11:30",
+    "horario_raw": "MIERCOLES Y JUEVES 9AM a 11:30AM"
+  },
+  {
+    "medico_id": 194,
+    "sede": "SEDE SUR",
+    "especialidad": "ODONTOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "11:30",
+    "horario_raw": "MIERCOLES Y JUEVES 9AM a 11:30AM"
+  },
+  {
+    "medico_id": 195,
+    "sede": "SEDE SUR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 2,
+    "hora_inicio": "07:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES Y MARTES 7AM a 12PM"
+  },
+  {
+    "medico_id": 195,
+    "sede": "SEDE SUR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 1,
+    "hora_inicio": "07:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES Y MARTES 7AM a 12PM"
+  },
+  {
+    "medico_id": 195,
+    "sede": "SEDE VIÑA",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES 8AM a 12PM"
+  },
+  {
+    "medico_id": 196,
+    "sede": "SEDE SUR",
+    "especialidad": "ENDOCRINOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES 9AM a 12PM"
+  },
+  {
+    "medico_id": 197,
+    "sede": "SEDE SUR",
+    "especialidad": "FISIATRIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES 8AM a 12PM"
+  },
+  {
+    "medico_id": 198,
+    "sede": "SEDE SUR",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 6,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "SABADO 9AM a 12PM"
+  },
+  {
+    "medico_id": 199,
+    "sede": "SEDE SUR",
+    "especialidad": "FISIATRIA",
+    "dia_semana": 4,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "JUEVES 2PM a 4PM"
+  },
+  {
+    "medico_id": 199,
+    "sede": "SEDE VIÑA",
+    "especialidad": "FISIATRIA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES 9 AM a 12PM"
+  },
+  {
+    "medico_id": 200,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "10:00",
+    "horario_raw": "MIERCOLES 8AM a 10AM"
+  },
+  {
+    "medico_id": 201,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES AVIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 201,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES AVIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 202,
+    "sede": "SEDE MARACAY",
+    "especialidad": "DERMATOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "09:00",
+    "hora_fin": "11:00",
+    "horario_raw": "LUNES A VIERNES 9AM a 11AM"
+  },
+  {
+    "medico_id": 202,
+    "sede": "SEDE MARACAY",
+    "especialidad": "DERMATOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "11:00",
+    "horario_raw": "LUNES A VIERNES 9AM a 11AM"
+  },
+  {
+    "medico_id": 202,
+    "sede": "SEDE MARACAY",
+    "especialidad": "DERMATOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "11:00",
+    "horario_raw": "LUNES A VIERNES 9AM a 11AM"
+  },
+  {
+    "medico_id": 202,
+    "sede": "SEDE MARACAY",
+    "especialidad": "DERMATOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "11:00",
+    "horario_raw": "LUNES A VIERNES 9AM a 11AM"
+  },
+  {
+    "medico_id": 202,
+    "sede": "SEDE MARACAY",
+    "especialidad": "DERMATOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "11:00",
+    "horario_raw": "LUNES A VIERNES 9AM a 11AM"
+  },
+  {
+    "medico_id": 203,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES , MIERCOLES Y VIERNES 8AM a 1PM / JUEVES 1:30PM a 5PM"
+  },
+  {
+    "medico_id": 203,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES , MIERCOLES Y VIERNES 8AM a 1PM / JUEVES 1:30PM a 5PM"
+  },
+  {
+    "medico_id": 203,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES , MIERCOLES Y VIERNES 8AM a 1PM / JUEVES 1:30PM a 5PM"
+  },
+  {
+    "medico_id": 203,
+    "sede": "SEDE MARACAY",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 4,
+    "hora_inicio": "13:30",
+    "hora_fin": "17:00",
+    "horario_raw": "LUNES , MIERCOLES Y VIERNES 8AM a 1PM / JUEVES 1:30PM a 5PM"
+  },
+  {
+    "medico_id": 204,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 1,
+    "hora_inicio": "07:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES 7AM a 4PM / MARTES, MIERCOLES JUEVES Y VIERNES 7AM a 1PM"
+  },
+  {
+    "medico_id": 204,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 3,
+    "hora_inicio": "07:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES 7AM a 4PM / MARTES, MIERCOLES JUEVES Y VIERNES 7AM a 1PM"
+  },
+  {
+    "medico_id": 204,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 5,
+    "hora_inicio": "07:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES 7AM a 4PM / MARTES, MIERCOLES JUEVES Y VIERNES 7AM a 1PM"
+  },
+  {
+    "medico_id": 204,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 2,
+    "hora_inicio": "07:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES 7AM a 4PM / MARTES, MIERCOLES JUEVES Y VIERNES 7AM a 1PM"
+  },
+  {
+    "medico_id": 204,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 4,
+    "hora_inicio": "07:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES 7AM a 4PM / MARTES, MIERCOLES JUEVES Y VIERNES 7AM a 1PM"
+  },
+  {
+    "medico_id": 205,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CARDIOLOGIA PEDIATRICA",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "JUEVES 9AM a 12PM"
+  },
+  {
+    "medico_id": 206,
+    "sede": "SEDE SUR",
+    "especialidad": "FISIATRIA",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES 9AM a 12PM Y JUEVES 9AM a 1PM"
+  },
+  {
+    "medico_id": 206,
+    "sede": "SEDE SUR",
+    "especialidad": "FISIATRIA",
+    "dia_semana": 1,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES 9AM a 12PM Y JUEVES 9AM a 1PM"
+  },
+  {
+    "medico_id": 206,
+    "sede": "SEDE VIÑA",
+    "especialidad": "FISIATRIA",
+    "dia_semana": 5,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y VIERNES 2 PM a 4PM"
+  },
+  {
+    "medico_id": 206,
+    "sede": "SEDE VIÑA",
+    "especialidad": "FISIATRIA",
+    "dia_semana": 2,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y VIERNES 2 PM a 4PM"
+  },
+  {
+    "medico_id": 207,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 207,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 207,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 208,
+    "sede": "SEDE VIÑA",
+    "especialidad": "FISIOTERAPIA",
+    "dia_semana": 1,
+    "hora_inicio": "07:00",
+    "hora_fin": "16:00",
+    "horario_raw": "DE LUNES a VIERNES 7AM a 4PM"
+  },
+  {
+    "medico_id": 208,
+    "sede": "SEDE VIÑA",
+    "especialidad": "FISIOTERAPIA",
+    "dia_semana": 2,
+    "hora_inicio": "07:00",
+    "hora_fin": "16:00",
+    "horario_raw": "DE LUNES a VIERNES 7AM a 4PM"
+  },
+  {
+    "medico_id": 208,
+    "sede": "SEDE VIÑA",
+    "especialidad": "FISIOTERAPIA",
+    "dia_semana": 3,
+    "hora_inicio": "07:00",
+    "hora_fin": "16:00",
+    "horario_raw": "DE LUNES a VIERNES 7AM a 4PM"
+  },
+  {
+    "medico_id": 208,
+    "sede": "SEDE VIÑA",
+    "especialidad": "FISIOTERAPIA",
+    "dia_semana": 4,
+    "hora_inicio": "07:00",
+    "hora_fin": "16:00",
+    "horario_raw": "DE LUNES a VIERNES 7AM a 4PM"
+  },
+  {
+    "medico_id": 208,
+    "sede": "SEDE VIÑA",
+    "especialidad": "FISIOTERAPIA",
+    "dia_semana": 5,
+    "hora_inicio": "07:00",
+    "hora_fin": "16:00",
+    "horario_raw": "DE LUNES a VIERNES 7AM a 4PM"
+  },
+  {
+    "medico_id": 209,
+    "sede": "SEDE SUR",
+    "especialidad": "DERMATOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 210,
+    "sede": "SEDE MARACAY",
+    "especialidad": "NEFROLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 211,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 5,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 211,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 211,
+    "sede": "SEDE VIÑA",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "VIERNES 8 AM a 12PM"
+  },
+  {
+    "medico_id": 212,
+    "sede": "SEDE NORTE",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "DE LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 212,
+    "sede": "SEDE NORTE",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "DE LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 212,
+    "sede": "SEDE NORTE",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "DE LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 212,
+    "sede": "SEDE NORTE",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "DE LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 212,
+    "sede": "SEDE NORTE",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "DE LUNES a VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 212,
+    "sede": "SEDE VIÑA",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 6,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "SABADO 8 AM a 12PM"
+  },
+  {
+    "medico_id": 213,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 6,
+    "hora_inicio": "09:00",
+    "hora_fin": "11:00",
+    "horario_raw": "SABADO 9AM a 11AM"
+  },
+  {
+    "medico_id": 214,
+    "sede": "SEDE MARACAY",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "10:00",
+    "hora_fin": "13:40",
+    "horario_raw": "MARTES 10AM a 1:40PM/ JUEVES 8AM a 12:30PM"
+  },
+  {
+    "medico_id": 214,
+    "sede": "SEDE MARACAY",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:30",
+    "horario_raw": "MARTES 10AM a 1:40PM/ JUEVES 8AM a 12:30PM"
+  },
+  {
+    "medico_id": 215,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 216,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 1,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES A VIERNES DE 9AM a 12PM"
+  },
+  {
+    "medico_id": 216,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES A VIERNES DE 9AM a 12PM"
+  },
+  {
+    "medico_id": 216,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES A VIERNES DE 9AM a 12PM"
+  },
+  {
+    "medico_id": 216,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES A VIERNES DE 9AM a 12PM"
+  },
+  {
+    "medico_id": 216,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES A VIERNES DE 9AM a 12PM"
+  },
+  {
+    "medico_id": 217,
+    "sede": "SEDE NORTE",
+    "especialidad": "UROLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:30",
+    "hora_fin": "11:00",
+    "horario_raw": "MIERCOLES 8:30AM a 11AM"
+  },
+  {
+    "medico_id": 217,
+    "sede": "SEDE VIÑA",
+    "especialidad": "UROLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y JUEVES 2PM a 4PM"
+  },
+  {
+    "medico_id": 217,
+    "sede": "SEDE VIÑA",
+    "especialidad": "UROLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y JUEVES 2PM a 4PM"
+  },
+  {
+    "medico_id": 217,
+    "sede": "SEDE SUR",
+    "especialidad": "UROLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MARTES, JUEVES 10AM a 12PM Y VIERNES 12:30 PM a 3PM"
+  },
+  {
+    "medico_id": 217,
+    "sede": "SEDE SUR",
+    "especialidad": "UROLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MARTES, JUEVES 10AM a 12PM Y VIERNES 12:30 PM a 3PM"
+  },
+  {
+    "medico_id": 217,
+    "sede": "SEDE SUR",
+    "especialidad": "UROLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MARTES, JUEVES 10AM a 12PM Y VIERNES 12:30 PM a 3PM"
+  },
+  {
+    "medico_id": 217,
+    "sede": "SEDE SUR",
+    "especialidad": "UROLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MARTES, JUEVES 10AM a 12PM Y VIERNES 12:30 PM a 3PM"
+  },
+  {
+    "medico_id": 218,
+    "sede": "SEDE SUR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES , Y VIERNES 8 AM a 4PM"
+  },
+  {
+    "medico_id": 218,
+    "sede": "SEDE SUR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES , Y VIERNES 8 AM a 4PM"
+  },
+  {
+    "medico_id": 219,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "JUEVES Y VIERNES 8AM a 4PM"
+  },
+  {
+    "medico_id": 219,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA GENERAL",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "JUEVES Y VIERNES 8AM a 4PM"
+  },
+  {
+    "medico_id": 220,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "CIRUGIA ONCOLOGICA",
+    "dia_semana": 1,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES 2PM a 4PM"
+  },
+  {
+    "medico_id": 220,
+    "sede": "SEDE SUR",
+    "especialidad": "CIRUGIA ONCOLOGICA",
+    "dia_semana": 4,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "JUEVES 1PM a 4PM"
+  },
+  {
+    "medico_id": 220,
+    "sede": "SEDE SUR",
+    "especialidad": "MASTOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "JUEVES 1PM a 4PM"
+  },
+  {
+    "medico_id": 221,
+    "sede": "SEDE MARACAY",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "09:30",
+    "horario_raw": "LUNES 8AM a 9:30AM"
+  },
+  {
+    "medico_id": 222,
+    "sede": "SEDE MARACAY",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y MIERCOLES 9AM a 12PM"
+  },
+  {
+    "medico_id": 222,
+    "sede": "SEDE MARACAY",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES Y MIERCOLES 9AM a 12PM"
+  },
+  {
+    "medico_id": 223,
+    "sede": "SEDE SUR",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES 8AM a 12PM/ JUEVES 8AM a 10am"
+  },
+  {
+    "medico_id": 223,
+    "sede": "SEDE SUR",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "10:00",
+    "horario_raw": "MARTES 8AM a 12PM/ JUEVES 8AM a 10am"
+  },
+  {
+    "medico_id": 223,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 4,
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "horario_raw": "JUEVES 10AM a 12PM / LUNES, MIERCOLES Y VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 223,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "JUEVES 10AM a 12PM / LUNES, MIERCOLES Y VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 223,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 5,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "JUEVES 10AM a 12PM / LUNES, MIERCOLES Y VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 223,
+    "sede": "SEDE VIÑA",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "JUEVES 10AM a 12PM / LUNES, MIERCOLES Y VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 224,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "09:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES a VIERNES 9AM a 4PM"
+  },
+  {
+    "medico_id": 224,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES a VIERNES 9AM a 4PM"
+  },
+  {
+    "medico_id": 224,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES a VIERNES 9AM a 4PM"
+  },
+  {
+    "medico_id": 224,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES a VIERNES 9AM a 4PM"
+  },
+  {
+    "medico_id": 224,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES a VIERNES 9AM a 4PM"
+  },
+  {
+    "medico_id": 225,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA FAMILIAR",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "13:00",
+    "horario_raw": "MARTES Y MIERCOLES 8AM a 1PM"
+  },
+  {
+    "medico_id": 225,
+    "sede": "SEDE MARACAY",
+    "especialidad": "MEDICINA FAMILIAR",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "13:00",
+    "horario_raw": "MARTES Y MIERCOLES 8AM a 1PM"
+  },
+  {
+    "medico_id": 226,
+    "sede": "SEDE VIÑA",
+    "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "JUEVES 8 AM a 12PM"
+  },
+  {
+    "medico_id": 227,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "PEDIATRA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y MIERCOLES 1PM a 4PM"
+  },
+  {
+    "medico_id": 227,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "PEDIATRA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y MIERCOLES 1PM a 4PM"
+  },
+  {
+    "medico_id": 228,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "ANGIOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES Y VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 228,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "ANGIOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES Y VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 229,
+    "sede": "SEDE SUR",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "10:30",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES 10:30 AM a 1PM /MIERCOLES 1PM a 4PM"
+  },
+  {
+    "medico_id": 229,
+    "sede": "SEDE SUR",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES 10:30 AM a 1PM /MIERCOLES 1PM a 4PM"
+  },
+  {
+    "medico_id": 229,
+    "sede": "SEDE VIÑA",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "JUEVES 9 AM a 12PM"
+  },
+  {
+    "medico_id": 230,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 3,
+    "hora_inicio": "07:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES 7AM a 12pm /VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 230,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES 7AM a 12pm /VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 231,
+    "sede": "SEDE VIÑA",
+    "especialidad": "HEMATÓLO INFANTIL",
+    "dia_semana": 4,
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "horario_raw": "JUEVES 2PM a 5PM"
+  },
+  {
+    "medico_id": 232,
+    "sede": "SEDE NORTE",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y MIERCOLES 1PM a 4PM"
+  },
+  {
+    "medico_id": 232,
+    "sede": "SEDE NORTE",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y MIERCOLES 1PM a 4PM"
+  },
+  {
+    "medico_id": 232,
+    "sede": "SEDE SUR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "10:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y JUEVES 10AM a 4PM Y VIERNES 10AM a 2PM"
+  },
+  {
+    "medico_id": 232,
+    "sede": "SEDE SUR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "10:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y JUEVES 10AM a 4PM Y VIERNES 10AM a 2PM"
+  },
+  {
+    "medico_id": 232,
+    "sede": "SEDE SUR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "10:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y JUEVES 10AM a 4PM Y VIERNES 10AM a 2PM"
+  },
+  {
+    "medico_id": 233,
+    "sede": "SEDE MARACAY",
+    "especialidad": "REUMATOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 234,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES 8AM a 12PM"
+  },
+  {
+    "medico_id": 236,
+    "sede": "SEDE SUR",
+    "especialidad": "REUMATOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MIERCOLES 8AM a 12PM"
+  },
+  {
+    "medico_id": 236,
+    "sede": "SEDE VIÑA",
+    "especialidad": "REUMATOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES 1 PM a 4PM"
+  },
+  {
+    "medico_id": 237,
+    "sede": "SEDE NORTE",
+    "especialidad": "PSICOLOGIA CLINICA",
+    "dia_semana": 1,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES A VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 237,
+    "sede": "SEDE NORTE",
+    "especialidad": "PSICOLOGIA CLINICA",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES A VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 237,
+    "sede": "SEDE NORTE",
+    "especialidad": "PSICOLOGIA CLINICA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES A VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 237,
+    "sede": "SEDE NORTE",
+    "especialidad": "PSICOLOGIA CLINICA",
+    "dia_semana": 4,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES A VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 237,
+    "sede": "SEDE NORTE",
+    "especialidad": "PSICOLOGIA CLINICA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES A VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 237,
+    "sede": "SEDE SUR",
+    "especialidad": "PSICOLOGIA CLINICA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "JUEVES 8AM a 12PM"
+  },
+  {
+    "medico_id": 238,
+    "sede": "SEDE MARACAY",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES Y JUEVES 10AM a 12PM"
+  },
+  {
+    "medico_id": 238,
+    "sede": "SEDE MARACAY",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES Y JUEVES 10AM a 12PM"
+  },
+  {
+    "medico_id": 239,
+    "sede": "SEDE SUR",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:30",
+    "hora_fin": "12:30",
+    "horario_raw": "VIERNES 9:30AM 12:00PM"
+  },
+  {
+    "medico_id": 239,
+    "sede": "SEDE VIÑA",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES 1 PM a 4PM"
+  },
+  {
+    "medico_id": 240,
+    "sede": "SEDE MARACAY",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "14:00",
+    "horario_raw": "LUNES Y MIERCOLES 8AM a 2PM"
+  },
+  {
+    "medico_id": 240,
+    "sede": "SEDE MARACAY",
+    "especialidad": "CARDIOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "14:00",
+    "horario_raw": "LUNES Y MIERCOLES 8AM a 2PM"
+  },
+  {
+    "medico_id": 241,
+    "sede": "SEDE SUR",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "12:30",
+    "hora_fin": "15:30",
+    "horario_raw": "MARTES Y JUEVES 12:30 PM a 3:30PM"
+  },
+  {
+    "medico_id": 241,
+    "sede": "SEDE SUR",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "12:30",
+    "hora_fin": "15:30",
+    "horario_raw": "MARTES Y JUEVES 12:30 PM a 3:30PM"
+  },
+  {
+    "medico_id": 241,
+    "sede": "SEDE VIÑA",
+    "especialidad": "OTORRINOLARINGOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "12:00",
+    "hora_fin": "14:00",
+    "horario_raw": "LUNES 12PM a 2PM"
+  },
+  {
+    "medico_id": 242,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 2,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y JUEVES 1PM a 4PM"
+  },
+  {
+    "medico_id": 242,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "CIRUGIA GENERAL",
+    "dia_semana": 4,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "MARTES Y JUEVES 1PM a 4PM"
+  },
+  {
+    "medico_id": 243,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y VIERNES 8AM a 4PM"
+  },
+  {
+    "medico_id": 243,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y VIERNES 8AM a 4PM"
+  },
+  {
+    "medico_id": 244,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES 9AM a 12PM"
+  },
+  {
+    "medico_id": 245,
+    "sede": "SEDE SUR",
+    "especialidad": "ODONTOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "08:30",
+    "hora_fin": "11:30",
+    "horario_raw": "MIERCOLES Y VIERNES 8:30AM A 11:30AM / JUEVES 1:30PM a 3:30 PM"
+  },
+  {
+    "medico_id": 245,
+    "sede": "SEDE SUR",
+    "especialidad": "ODONTOLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:30",
+    "hora_fin": "11:30",
+    "horario_raw": "MIERCOLES Y VIERNES 8:30AM A 11:30AM / JUEVES 1:30PM a 3:30 PM"
+  },
+  {
+    "medico_id": 245,
+    "sede": "SEDE SUR",
+    "especialidad": "ODONTOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "13:30",
+    "hora_fin": "15:30",
+    "horario_raw": "MIERCOLES Y VIERNES 8:30AM A 11:30AM / JUEVES 1:30PM a 3:30 PM"
+  },
+  {
+    "medico_id": 246,
+    "sede": "SEDE SUR",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 4,
+    "hora_inicio": "07:00",
+    "hora_fin": "14:00",
+    "horario_raw": "JUEVES 7AM a 2PM"
+  },
+  {
+    "medico_id": 246,
+    "sede": "SEDE VIÑA",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 3,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MARTES, MIERCOLES y VIERNES 8 AM a 12PM"
+  },
+  {
+    "medico_id": 246,
+    "sede": "SEDE VIÑA",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MARTES, MIERCOLES y VIERNES 8 AM a 12PM"
+  },
+  {
+    "medico_id": 246,
+    "sede": "SEDE VIÑA",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MARTES, MIERCOLES y VIERNES 8 AM a 12PM"
+  },
+  {
+    "medico_id": 246,
+    "sede": "SEDE VIÑA",
+    "especialidad": "MEDICINA INTERNA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES, MARTES, MIERCOLES y VIERNES 8 AM a 12PM"
+  },
+  {
+    "medico_id": 247,
+    "sede": "SEDE MARACAY",
+    "especialidad": "UROLOGIA",
+    "dia_semana": 5,
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "horario_raw": "VIERNES 9AM a 12PM"
+  },
+  {
+    "medico_id": 248,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "GINECOLOGIA",
+    "dia_semana": 3,
+    "hora_inicio": "09:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES Y MIERCOLES 9AM a 1PM / JUEVES 2PM a 4PM"
+  },
+  {
+    "medico_id": 248,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "GINECOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "09:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES Y MIERCOLES 9AM a 1PM / JUEVES 2PM a 4PM"
+  },
+  {
+    "medico_id": 248,
+    "sede": "SEDE PORLAMAR",
+    "especialidad": "GINECOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES Y MIERCOLES 9AM a 1PM / JUEVES 2PM a 4PM"
+  },
+  {
+    "medico_id": 249,
+    "sede": "SEDE SUR",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 5,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES , MARTES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 249,
+    "sede": "SEDE SUR",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES , MARTES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 249,
+    "sede": "SEDE SUR",
+    "especialidad": "ECOGRAFIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES , MARTES Y VIERNES 8AM a 12PM"
+  },
+  {
+    "medico_id": 250,
+    "sede": "SEDE MARACAY",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES, MARTES Y JUEVES 8AM a 1PM"
+  },
+  {
+    "medico_id": 250,
+    "sede": "SEDE MARACAY",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES, MARTES Y JUEVES 8AM a 1PM"
+  },
+  {
+    "medico_id": 250,
+    "sede": "SEDE MARACAY",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 1,
+    "hora_inicio": "08:00",
+    "hora_fin": "13:00",
+    "horario_raw": "LUNES, MARTES Y JUEVES 8AM a 1PM"
+  },
+  {
+    "medico_id": 251,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "FISIOTERAPIA",
+    "dia_semana": 3,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 251,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "FISIOTERAPIA",
+    "dia_semana": 5,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 251,
+    "sede": "SEDE PUERTO CABELLO",
+    "especialidad": "FISIOTERAPIA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES, MIERCOLES Y VIERNES 1PM a 4PM"
+  },
+  {
+    "medico_id": 252,
+    "sede": "SEDE SUR",
+    "especialidad": "TRAUMATOLOGIA",
+    "dia_semana": 2,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "MARTES 8AM a 12PM"
+  },
+  {
+    "medico_id": 253,
+    "sede": "SEDE VIÑA",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 1,
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES 10AM a 12PM / JUEVES Y SABADOS 8AM a 12PM"
+  },
+  {
+    "medico_id": 253,
+    "sede": "SEDE VIÑA",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 4,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES 10AM a 12PM / JUEVES Y SABADOS 8AM a 12PM"
+  },
+  {
+    "medico_id": 253,
+    "sede": "SEDE VIÑA",
+    "especialidad": "PEDIATRIA",
+    "dia_semana": 6,
+    "hora_inicio": "08:00",
+    "hora_fin": "12:00",
+    "horario_raw": "LUNES 10AM a 12PM / JUEVES Y SABADOS 8AM a 12PM"
+  },
+  {
+    "medico_id": 254,
+    "sede": "SEDE SUR",
+    "especialidad": "NEUMONOLOGIA",
+    "dia_semana": 4,
+    "hora_inicio": "07:00",
+    "hora_fin": "11:00",
+    "horario_raw": "LUNES Y JUEVES 7AM a 11AM"
+  },
+  {
+    "medico_id": 254,
+    "sede": "SEDE SUR",
+    "especialidad": "NEUMONOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "07:00",
+    "hora_fin": "11:00",
+    "horario_raw": "LUNES Y JUEVES 7AM a 11AM"
+  },
+  {
+    "medico_id": 254,
+    "sede": "SEDE VIÑA",
+    "especialidad": "NEUMONOLOGIA",
+    "dia_semana": 1,
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "horario_raw": "LUNES 1PM a 4PM"
+  }
+]
