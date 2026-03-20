@@ -1,245 +1,172 @@
 'use client'
 
-import { useState, useEffect } from 'react'
-import Link from 'next/link'
-import { getSedeData, searchRecords, MedicalRecord } from './lib/supabase'
+export const dynamic = 'force-dynamic'
 
-interface SedeData {
-  [key: string]: {
-    name: string
-    doctorCount: number
-    specialtyCount: number
-  }
+import { useEffect, useState, useMemo } from 'react'
+import { getAllRecords, MedicalRecord } from '../lib/supabase'
+
+const SEDE_ICONS: Record<string, string> = {
+  'SEDE NORTE': '🏥', 'SEDE SUR': '🏨', 'SEDE ESTE': '🏩',
+  'SEDE VIÑA': '🍇', 'SEDE PUERTO CABELLO': '⚓',
+  'SEDE MARACAY': '🌿', 'SEDE PORLAMAR': '🏝️',
 }
 
 export default function Home() {
-  const [sedeData, setSedeData] = useState<SedeData>({})
-  const [searchResults, setSearchResults] = useState<MedicalRecord[]>([])
+  const [records, setRecords] = useState<MedicalRecord[]>([])
   const [loading, setLoading] = useState(true)
-  const [searching, setSearching] = useState(false)
-  const [searchQuery, setSearchQuery] = useState('')
+  const [error, setError] = useState<string | null>(null)
+  const [search, setSearch] = useState('')
+  const [selectedSede, setSelectedSede] = useState<string | null>(null)
+  const [selectedEsp, setSelectedEsp] = useState<string | null>(null)
 
   useEffect(() => {
-    loadSedeData()
+    getAllRecords()
+      .then(setRecords)
+      .catch(e => setError(e.message))
+      .finally(() => setLoading(false))
   }, [])
 
-  const loadSedeData = async () => {
-    try {
-      setLoading(true)
-      const data = await getSedeData()
-      setSedeData(data)
-    } catch (error) {
-      console.error('Error loading sede data:', error)
-    } finally {
-      setLoading(false)
+  const filtered = useMemo(() => {
+    let r = records
+    if (search) {
+      const q = search.toLowerCase()
+      r = r.filter(rec => rec.medico.toLowerCase().includes(q) || rec.especialidad.toLowerCase().includes(q) || rec.sede.toLowerCase().includes(q))
     }
-  }
+    if (selectedSede) r = r.filter(rec => rec.sede === selectedSede)
+    if (selectedEsp) r = r.filter(rec => rec.especialidad === selectedEsp)
+    return r
+  }, [records, search, selectedSede, selectedEsp])
 
-  const handleSearch = async (query: string) => {
-    setSearchQuery(query)
-    
-    if (!query.trim()) {
-      setSearchResults([])
-      setSearching(false)
-      return
-    }
+  const sedes = useMemo(() => {
+    const map = new Map<string, { doctors: Set<string>; specs: Set<string> }>()
+    records.forEach(r => {
+      if (!map.has(r.sede)) map.set(r.sede, { doctors: new Set(), specs: new Set() })
+      const s = map.get(r.sede)!
+      s.doctors.add(r.medico)
+      s.specs.add(r.especialidad)
+    })
+    return Array.from(map.entries()).map(([name, s]) => ({ name, dc: s.doctors.size, sc: s.specs.size }))
+  }, [records])
 
-    try {
-      setSearching(true)
-      const results = await searchRecords(query)
-      setSearchResults(results)
-    } catch (error) {
-      console.error('Error searching:', error)
-      setSearchResults([])
-    } finally {
-      setSearching(false)
-    }
-  }
+  const especialidades = useMemo(() => {
+    const src = selectedSede ? records.filter(r => r.sede === selectedSede) : records
+    const map = new Map<string, number>()
+    src.forEach(r => map.set(r.especialidad, (map.get(r.especialidad) || 0) + 1))
+    return Array.from(map.entries()).map(([n, c]) => ({ name: n, count: c })).sort((a, b) => a.name.localeCompare(b.name))
+  }, [records, selectedSede])
 
-  const handleSearchSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-  }
+  const grouped = useMemo(() => {
+    const map = new Map<string, MedicalRecord[]>()
+    filtered.forEach(r => { if (!map.has(r.especialidad)) map.set(r.especialidad, []); map.get(r.especialidad)!.push(r) })
+    return Array.from(map.entries()).sort((a, b) => a[0].localeCompare(b[0]))
+  }, [filtered])
 
-  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value
-    setSearchQuery(value)
-    handleSearch(value)
-  }
+  if (loading) return (
+    <div className="flex items-center justify-center min-h-[60vh]">
+      <div className="text-center">
+        <div className="w-12 h-12 border-4 border-cyan-200 border-t-cyan-600 rounded-full animate-spin mx-auto mb-4"></div>
+        <p className="text-gray-500">Cargando directorio médico...</p>
+      </div>
+    </div>
+  )
+
+  if (error) return <div className="bg-red-50 border border-red-200 rounded-xl p-6 text-center"><p className="text-red-600">Error: {error}</p></div>
+
+  const clearAll = () => { setSearch(''); setSelectedSede(null); setSelectedEsp(null) }
 
   return (
-    <div className="min-h-screen">
-      {/* Header */}
-      <header className="bg-white shadow-sm border-b border-cyan-100">
-        <div className="max-w-7xl container py-6">
-          <div className="text-center">
-            <h1 className="text-3xl font-bold text-gray-900 flex items-center justify-center space-x-3">
-              <span style={{ fontSize: '2.5rem' }}>🏥</span>
-              <span>GIGA Dashboard - Prevaler</span>
-            </h1>
-            <p className="mt-2 text-lg text-gray-600">Directorio Médico</p>
+    <div className="space-y-8">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {[
+          { label: 'Total Médicos', value: new Set(records.map(r => r.medico)).size, c: 'bg-cyan-50 border-cyan-200 text-cyan-900' },
+          { label: 'Especialidades', value: new Set(records.map(r => r.especialidad)).size, c: 'bg-blue-50 border-blue-200 text-blue-900' },
+          { label: 'Sedes', value: sedes.length, c: 'bg-teal-50 border-teal-200 text-teal-900' },
+          { label: 'Registros', value: records.length, c: 'bg-indigo-50 border-indigo-200 text-indigo-900' },
+        ].map(s => (
+          <div key={s.label} className={`rounded-xl border-l-4 p-4 ${s.c}`}>
+            <p className="text-sm font-medium opacity-75">{s.label}</p>
+            <p className="text-3xl font-bold">{s.value}</p>
           </div>
-          
-          <div className="mt-6 flex justify-center">
-            <form onSubmit={handleSearchSubmit} className="w-full max-w-md">
-              <div style={{ position: 'relative' }}>
-                <div style={{
-                  position: 'absolute',
-                  top: '50%',
-                  left: '1rem',
-                  transform: 'translateY(-50%)',
-                  pointerEvents: 'none',
-                  fontSize: '1.2rem'
-                }}>
-                  🔍
-                </div>
-                <input
-                  type="text"
-                  value={searchQuery}
-                  onChange={handleSearchChange}
-                  className="search-input"
-                  style={{ paddingLeft: '3rem' }}
-                  placeholder="Buscar médico, especialidad o sede..."
-                />
-              </div>
-            </form>
+        ))}
+      </div>
+
+      <div className="relative max-w-xl mx-auto">
+        <input type="text" value={search} onChange={e => setSearch(e.target.value)}
+          placeholder="🔍  Buscar médico, especialidad o sede..."
+          className="w-full px-5 py-3 rounded-xl border border-cyan-200 bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent text-gray-700 placeholder-gray-400" />
+        {(search || selectedSede || selectedEsp) && (
+          <button onClick={clearAll} className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-red-500 text-sm font-medium">✕ Limpiar</button>
+        )}
+      </div>
+
+      {(selectedSede || selectedEsp) && (
+        <div className="flex flex-wrap gap-2 justify-center">
+          {selectedSede && <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-cyan-100 text-cyan-800 text-sm font-medium">📍 {selectedSede} <button onClick={() => setSelectedSede(null)} className="ml-1 hover:text-red-600">✕</button></span>}
+          {selectedEsp && <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-sm font-medium">🩺 {selectedEsp} <button onClick={() => setSelectedEsp(null)} className="ml-1 hover:text-red-600">✕</button></span>}
+        </div>
+      )}
+
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+        <div className="lg:col-span-1 space-y-6">
+          <div>
+            <h2 className="text-lg font-bold text-gray-800 mb-3">📍 Sedes</h2>
+            <div className="space-y-2">
+              {sedes.map(sede => (
+                <button key={sede.name} onClick={() => { setSelectedSede(selectedSede === sede.name ? null : sede.name); setSelectedEsp(null) }}
+                  className={`w-full text-left p-3 rounded-xl border transition-all ${selectedSede === sede.name ? 'bg-cyan-600 text-white border-cyan-600 shadow-lg shadow-cyan-200' : 'bg-white border-gray-100 hover:border-cyan-300 hover:shadow-md'}`}>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <span>{SEDE_ICONS[sede.name] || '📍'}</span>
+                      <span className="font-semibold text-sm">{sede.name}</span>
+                    </div>
+                    <div className={`text-xs ${selectedSede === sede.name ? 'text-cyan-100' : 'text-gray-400'}`}>{sede.dc}👨‍⚕️ · {sede.sc}🩺</div>
+                  </div>
+                </button>
+              ))}
+            </div>
+          </div>
+          <div>
+            <h2 className="text-lg font-bold text-gray-800 mb-3">🩺 Especialidades</h2>
+            <div className="space-y-1 max-h-96 overflow-y-auto pr-1">
+              {especialidades.map(esp => (
+                <button key={esp.name} onClick={() => setSelectedEsp(selectedEsp === esp.name ? null : esp.name)}
+                  className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-all ${selectedEsp === esp.name ? 'bg-blue-600 text-white shadow-md' : 'hover:bg-blue-50 text-gray-700'}`}>
+                  <div className="flex justify-between items-center">
+                    <span className="truncate">{esp.name}</span>
+                    <span className={`text-xs font-medium ml-2 ${selectedEsp === esp.name ? 'text-blue-100' : 'text-gray-400'}`}>{esp.count}</span>
+                  </div>
+                </button>
+              ))}
+            </div>
           </div>
         </div>
-      </header>
 
-      {/* Main Content */}
-      <main className="max-w-7xl container py-8">
-        {/* Search Results */}
-        {searchQuery && (
-          <div className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-              Resultados de búsqueda: "{searchQuery}"
-            </h2>
-            
-            {searching ? (
-              <div className="flex flex-col items-center justify-center py-12">
-                <div className="loading-spinner"></div>
-                <p className="mt-4 text-gray-600">Buscando...</p>
+        <div className="lg:col-span-3 space-y-6">
+          <h2 className="text-lg font-bold text-gray-800">👨‍⚕️ Directorio ({filtered.length} registros)</h2>
+          {grouped.length === 0 ? (
+            <div className="bg-white rounded-xl border border-gray-100 p-12 text-center"><p className="text-gray-400 text-lg">No se encontraron resultados</p></div>
+          ) : grouped.map(([esp, docs]) => (
+            <div key={esp} className="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden">
+              <div className="bg-gradient-to-r from-cyan-600 to-blue-600 px-5 py-3">
+                <h3 className="text-white font-bold flex items-center gap-2">🩺 {esp} <span className="text-cyan-100 text-sm font-normal">({docs.length})</span></h3>
               </div>
-            ) : searchResults.length > 0 ? (
-              <div className="grid grid-cols-1 grid-cols-2-md grid-cols-3-lg">
-                {searchResults.map((doctor) => (
-                  <div key={doctor.id} className="card">
-                    <div className="space-y-3">
-                      <div className="flex items-start justify-between">
-                        <div className="flex items-center space-x-3">
-                          <div style={{
-                            padding: '0.5rem',
-                            backgroundColor: '#ecfeff',
-                            borderRadius: '0.5rem'
-                          }}>
-                            <span style={{ fontSize: '1.25rem' }}>👨‍⚕️</span>
-                          </div>
-                          <div>
-                            <h4 className="font-medium text-gray-900">{doctor.medico}</h4>
-                            <div className="flex items-center space-x-1 text-sm mt-1 text-cyan-600">
-                              <span>🩺</span>
-                              <span>{doctor.especialidad}</span>
-                            </div>
-                          </div>
-                        </div>
+              <div className="divide-y divide-gray-50">
+                {docs.map(doc => (
+                  <div key={doc.id} className="px-5 py-3 hover:bg-cyan-50/50 transition-colors">
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
+                      <div>
+                        <p className="font-semibold text-gray-800">👨‍⚕️ {doc.medico}</p>
+                        <p className="text-sm text-gray-500">📍 {doc.sede}</p>
                       </div>
-                      
-                      <div className="space-y-2 text-sm text-gray-600">
-                        <div className="flex items-center space-x-2">
-                          <span>⏰</span>
-                          <span>{doctor.horario}</span>
-                        </div>
-                        
-                        <div className="flex items-center space-x-2">
-                          <span>📍</span>
-                          <span>{doctor.sede}</span>
-                        </div>
-                        
-                        {doctor.timezone && (
-                          <div style={{ fontSize: '0.75rem', color: '#6b7280', marginTop: '0.5rem' }}>
-                            Zona horaria: {doctor.timezone}
-                          </div>
-                        )}
-                      </div>
+                      <div className="text-sm text-gray-600 bg-gray-50 px-3 py-1 rounded-lg">🕐 {doc.horario || 'Sin horario'}</div>
                     </div>
                   </div>
                 ))}
               </div>
-            ) : (
-              <div className="text-center py-8">
-                <p className="text-gray-500">No se encontraron resultados para "{searchQuery}"</p>
-              </div>
-            )}
-          </div>
-        )}
-
-        {/* Sedes Grid (only show when not searching) */}
-        {!searchQuery && (
-          <>
-            <div className="mb-8">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-2">Sedes Disponibles</h2>
-              <p className="text-gray-600">Selecciona una sede para ver el directorio médico completo</p>
             </div>
-
-            {loading ? (
-              <div className="flex flex-col items-center justify-center py-12">
-                <div className="loading-spinner"></div>
-                <p className="mt-4 text-gray-600">Cargando sedes...</p>
-              </div>
-            ) : (
-              <div className="grid grid-cols-1 grid-cols-2-md grid-cols-3-lg">
-                {Object.values(sedeData).map((sede) => (
-                  <Link key={sede.name} href={`/sede/${encodeURIComponent(sede.name)}`}>
-                    <div className="card cursor-pointer">
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center space-x-3">
-                          <div style={{
-                            padding: '0.75rem',
-                            backgroundColor: '#cffafe',
-                            borderRadius: '0.5rem'
-                          }}>
-                            <span style={{ fontSize: '1.5rem' }}>📍</span>
-                          </div>
-                          <div>
-                            <h3 className="text-lg font-semibold text-gray-900">
-                              {sede.name}
-                            </h3>
-                            <div className="mt-1 space-y-1">
-                              <div className="flex items-center space-x-2 text-sm text-gray-600">
-                                <span style={{ color: '#0891b2' }}>👨‍⚕️</span>
-                                <span>{sede.doctorCount} médicos</span>
-                              </div>
-                              <div className="flex items-center space-x-2 text-sm text-gray-600">
-                                <span style={{ color: '#0891b2' }}>🩺</span>
-                                <span>{sede.specialtyCount} especialidades</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div style={{
-                          fontSize: '1.5rem',
-                          color: '#9ca3af'
-                        }}>
-                          →
-                        </div>
-                      </div>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            )}
-          </>
-        )}
-      </main>
-
-      {/* Footer */}
-      <footer className="bg-white border-t border-cyan-100 mt-16">
-        <div className="max-w-7xl container py-6">
-          <p className="text-center text-gray-600">
-            Sistema GIGA v3.0 — Directorio médico conectado a base de datos en tiempo real
-          </p>
+          ))}
         </div>
-      </footer>
+      </div>
     </div>
   )
 }
