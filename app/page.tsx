@@ -11,6 +11,18 @@ const SEDE_ICONS: Record<string, string> = {
   'SEDE MARACAY': '🌿', 'SEDE PORLAMAR': '🏝️',
 }
 
+const CITY_MAP: Record<string, { city: string; icon: string }> = {
+  'SEDE NORTE': { city: 'Valencia', icon: '🏙️' },
+  'SEDE SUR': { city: 'Valencia', icon: '🏙️' },
+  'SEDE ESTE': { city: 'Valencia', icon: '🏙️' },
+  'SEDE VIÑA': { city: 'Valencia', icon: '🏙️' },
+  'SEDE PUERTO CABELLO': { city: 'Puerto Cabello', icon: '⚓' },
+  'SEDE MARACAY': { city: 'Maracay', icon: '🌿' },
+  'SEDE PORLAMAR': { city: 'Porlamar (Margarita)', icon: '🏝️' },
+}
+
+const CITY_ORDER = ['Valencia', 'Maracay', 'Puerto Cabello', 'Porlamar (Margarita)']
+
 export default function Home() {
   const [records, setRecords] = useState<MedicalRecord[]>([])
   const [loading, setLoading] = useState(true)
@@ -110,19 +122,37 @@ export default function Home() {
         <div className="lg:col-span-1 space-y-6">
           <div>
             <h2 className="text-lg font-bold text-gray-800 mb-3">📍 Sedes</h2>
-            <div className="space-y-2">
-              {sedes.map(sede => (
-                <button key={sede.name} onClick={() => { setSelectedSede(selectedSede === sede.name ? null : sede.name); setSelectedEsp(null) }}
-                  className={`w-full text-left p-3 rounded-xl border transition-all ${selectedSede === sede.name ? 'bg-cyan-600 text-white border-cyan-600 shadow-lg shadow-cyan-200' : 'bg-white border-gray-100 hover:border-cyan-300 hover:shadow-md'}`}>
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <span>{SEDE_ICONS[sede.name] || '📍'}</span>
-                      <span className="font-semibold text-sm">{sede.name}</span>
+            <div className="space-y-3">
+              {CITY_ORDER.map(city => {
+                const citySedes = sedes.filter(s => CITY_MAP[s.name]?.city === city)
+                if (citySedes.length === 0) return null
+                const cityIcon = CITY_MAP[citySedes[0].name]?.icon || '📍'
+                const totalDocs = citySedes.reduce((a, s) => a + s.dc, 0)
+                return (
+                  <div key={city} className="rounded-xl border border-gray-200 bg-gray-50/50 overflow-hidden">
+                    <div className="px-3 py-2 bg-gradient-to-r from-gray-100 to-gray-50 border-b border-gray-200">
+                      <div className="flex items-center justify-between">
+                        <span className="font-bold text-sm text-gray-700">{cityIcon} {city}</span>
+                        <span className="text-xs text-gray-400">{totalDocs} 👨‍⚕️</span>
+                      </div>
                     </div>
-                    <div className={`text-xs ${selectedSede === sede.name ? 'text-cyan-100' : 'text-gray-400'}`}>{sede.dc}👨‍⚕️ · {sede.sc}🩺</div>
+                    <div className="p-1.5 space-y-1">
+                      {citySedes.map(sede => (
+                        <button key={sede.name} onClick={() => { setSelectedSede(selectedSede === sede.name ? null : sede.name); setSelectedEsp(null) }}
+                          className={`w-full text-left p-2.5 rounded-lg border transition-all ${selectedSede === sede.name ? 'bg-cyan-600 text-white border-cyan-600 shadow-lg shadow-cyan-200' : 'bg-white border-gray-100 hover:border-cyan-300 hover:shadow-md'}`}>
+                          <div className="flex items-center justify-between">
+                            <div className="flex items-center gap-2">
+                              <span className="text-sm">{SEDE_ICONS[sede.name] || '📍'}</span>
+                              <span className="font-semibold text-xs">{sede.name.replace('SEDE ', '')}</span>
+                            </div>
+                            <div className={`text-xs ${selectedSede === sede.name ? 'text-cyan-100' : 'text-gray-400'}`}>{sede.dc}👨‍⚕️ · {sede.sc}🩺</div>
+                          </div>
+                        </button>
+                      ))}
+                    </div>
                   </div>
-                </button>
-              ))}
+                )
+              })}
             </div>
           </div>
           <div>
