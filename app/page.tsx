@@ -12,16 +12,16 @@ const SEDE_ICONS: Record<string, string> = {
 }
 
 const CITY_MAP: Record<string, { city: string; icon: string }> = {
-  'SEDE NORTE': { city: 'Valencia', icon: '🏙️' },
-  'SEDE SUR': { city: 'Valencia', icon: '🏙️' },
-  'SEDE ESTE': { city: 'Valencia', icon: '🏙️' },
-  'SEDE VIÑA': { city: 'Valencia', icon: '🏙️' },
-  'SEDE PUERTO CABELLO': { city: 'Puerto Cabello', icon: '⚓' },
-  'SEDE MARACAY': { city: 'Maracay', icon: '🌿' },
-  'SEDE PORLAMAR': { city: 'Porlamar (Margarita)', icon: '🏝️' },
+  'SEDE NORTE': { city: 'Carabobo', icon: '🏙️' },
+  'SEDE SUR': { city: 'Carabobo', icon: '🏙️' },
+  'SEDE ESTE': { city: 'Carabobo', icon: '🏙️' },
+  'SEDE VIÑA': { city: 'Carabobo', icon: '🏙️' },
+  'SEDE PUERTO CABELLO': { city: 'Carabobo', icon: '🏙️' },
+  'SEDE MARACAY': { city: 'Aragua', icon: '🌿' },
+  'SEDE PORLAMAR': { city: 'Nueva Esparta', icon: '🏝️' },
 }
 
-const CITY_ORDER = ['Valencia', 'Maracay', 'Puerto Cabello', 'Porlamar (Margarita)']
+const CITY_ORDER = ['Carabobo', 'Aragua', 'Nueva Esparta']
 
 export default function Home() {
   const [records, setRecords] = useState<MedicalRecord[]>([])
