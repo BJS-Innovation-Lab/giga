@@ -1,16 +1,9 @@
-import { createClient, SupabaseClient } from '@supabase/supabase-js'
+import { createClient } from '@supabase/supabase-js'
 
-let _client: SupabaseClient | null = null
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://upewexegupymrmotzpgp.supabase.co'
+const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVwZXdleGVndXB5bXJtb3R6cGdwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDE5MTM5MjUsImV4cCI6MjA1NzQ4OTkyNX0.IFfDCdBPKTcKNSMdA-GnnxBf3CXJlbHGXhbrK7Eevtc'
 
-function getClient() {
-  if (!_client) {
-    const url = process.env.NEXT_PUBLIC_SUPABASE_URL
-    const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
-    if (!url || !key) throw new Error('Supabase credentials not configured')
-    _client = createClient(url, key)
-  }
-  return _client
-}
+export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 export interface MedicalRecord {
   id: number
@@ -23,7 +16,7 @@ export interface MedicalRecord {
 }
 
 export async function getAllRecords(): Promise<MedicalRecord[]> {
-  const { data, error } = await getClient()
+  const { data, error } = await supabase
     .from('giga_directorio_medico')
     .select('*')
     .order('sede')
