@@ -7,6 +7,7 @@ import { getAllRecords, MedicalRecord, getMedicos, getHorarios, Medico, Horario 
 import DoctorCalendar from './components/DoctorCalendar'
 import TodayAppointments from './components/TodayAppointments'
 import AppointmentForm from './components/AppointmentForm'
+import SmartSearch from './components/SmartSearch'
 
 const CITY_MAP: Record<string, { city: string }> = {
   'SEDE NORTE': { city: 'Carabobo' },
@@ -24,7 +25,6 @@ export default function Home() {
   const [records, setRecords] = useState<MedicalRecord[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
-  const [search, setSearch] = useState('')
   const [selectedSede, setSelectedSede] = useState<string | null>(null)
   const [selectedEsp, setSelectedEsp] = useState<string | null>(null)
   const [medicos, setMedicos] = useState<Medico[]>([])
@@ -32,6 +32,7 @@ export default function Home() {
   const [selectedDoctor, setSelectedDoctor] = useState<{ medico: Medico; horarios: Horario[] } | null>(null)
   const [showAppointmentForm, setShowAppointmentForm] = useState(false)
   const [refreshTrigger, setRefreshTrigger] = useState(0)
+  const [showDirectoryView, setShowDirectoryView] = useState(false)
 
   useEffect(() => {
     Promise.all([getAllRecords(), getMedicos(), getHorarios()])
@@ -42,14 +43,10 @@ export default function Home() {
 
   const filtered = useMemo(() => {
     let r = records
-    if (search) {
-      const q = search.toLowerCase()
-      r = r.filter(rec => rec.medico.toLowerCase().includes(q) || rec.especialidad.toLowerCase().includes(q) || rec.sede.toLowerCase().includes(q))
-    }
     if (selectedSede) r = r.filter(rec => rec.sede === selectedSede)
     if (selectedEsp) r = r.filter(rec => rec.especialidad === selectedEsp)
     return r
-  }, [records, search, selectedSede, selectedEsp])
+  }, [records, selectedSede, selectedEsp])
 
   const sedes = useMemo(() => {
     const map = new Map<string, { doctors: Set<string>; specs: Set<string> }>()
@@ -86,7 +83,7 @@ export default function Home() {
 
   if (error) return <div className="bg-red-50 border border-red-200 rounded-lg p-6 text-center"><p className="text-red-600 text-sm">Error: {error}</p></div>
 
-  const clearAll = () => { setSearch(''); setSelectedSede(null); setSelectedEsp(null) }
+  const clearAll = () => { setSelectedSede(null); setSelectedEsp(null) }
 
   const handleAppointmentSuccess = () => {
     setRefreshTrigger(prev => prev + 1)
@@ -130,38 +127,52 @@ export default function Home() {
         ))}
       </div>
 
-      {/* Search */}
-      <div className="relative max-w-xl mx-auto">
-        <svg className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-        </svg>
-        <input type="text" value={search} onChange={e => setSearch(e.target.value)}
-          placeholder="Buscar médico, especialidad o sede..."
-          className="w-full pl-10 pr-20 py-2.5 rounded-lg border border-slate-200 bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-400 text-sm text-slate-700 placeholder-slate-300" />
-        {(search || selectedSede || selectedEsp) && (
-          <button onClick={clearAll} className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-slate-400 hover:text-red-500 font-medium">Limpiar</button>
-        )}
-      </div>
+      {/* Smart Search */}
+      {!showDirectoryView ? (
+        <div>
+          <SmartSearch />
+          <div className="text-center mt-6">
+            <button
+              onClick={() => setShowDirectoryView(true)}
+              className="text-sm text-teal-600 hover:text-teal-700 underline"
+            >
+              Ver directorio completo con filtros tradicionales
+            </button>
+          </div>
+        </div>
+      ) : (
+        <div className="space-y-4">
+          <div className="text-center">
+            <button
+              onClick={() => setShowDirectoryView(false)}
+              className="text-sm text-teal-600 hover:text-teal-700 underline"
+            >
+              ← Volver a búsqueda inteligente
+            </button>
+          </div>
 
-      {/* Active filters */}
-      {(selectedSede || selectedEsp) && (
-        <div className="flex flex-wrap gap-2 justify-center">
-          {selectedSede && (
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-teal-50 text-teal-700 text-xs font-medium border border-teal-200">
-              {selectedSede.replace('SEDE ', '')}
-              <button onClick={() => setSelectedSede(null)} className="ml-0.5 hover:text-red-600">&times;</button>
-            </span>
-          )}
-          {selectedEsp && (
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-medium border border-blue-200">
-              {selectedEsp}
-              <button onClick={() => setSelectedEsp(null)} className="ml-0.5 hover:text-red-600">&times;</button>
-            </span>
+          {/* Active filters */}
+          {(selectedSede || selectedEsp) && (
+            <div className="flex flex-wrap gap-2 justify-center">
+              {selectedSede && (
+                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-teal-50 text-teal-700 text-xs font-medium border border-teal-200">
+                  {selectedSede.replace('SEDE ', '')}
+                  <button onClick={() => setSelectedSede(null)} className="ml-0.5 hover:text-red-600">&times;</button>
+                </span>
+              )}
+              {selectedEsp && (
+                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-medium border border-blue-200">
+                  {selectedEsp}
+                  <button onClick={() => setSelectedEsp(null)} className="ml-0.5 hover:text-red-600">&times;</button>
+                </span>
+              )}
+            </div>
           )}
         </div>
       )}
 
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+      {showDirectoryView && (
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
         {/* Sidebar */}
         <div className="lg:col-span-1 space-y-5">
           {/* Sedes */}
@@ -270,7 +281,8 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </div>
+        </div>
+      )}
 
       {selectedDoctor && (
         <DoctorCalendar
