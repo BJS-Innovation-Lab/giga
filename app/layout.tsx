@@ -1,38 +1,43 @@
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
+const inter = Inter({ subsets: ["latin"] });
+
 export const metadata: Metadata = {
-  title: "GIGA Dashboard - Prevaler",
+  title: "GIGA — Prevaler",
   description: "Directorio Médico — Sistema de gestión por sede y especialidad",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es">
-      <body>
-        <div className="min-h-screen bg-gradient-to-br from-cyan-50 via-white to-blue-50">
-          <nav className="bg-white/80 backdrop-blur-sm shadow-sm border-b border-cyan-100 sticky top-0 z-50">
+      <body className={inter.className}>
+        <div className="min-h-screen bg-slate-50">
+          <nav className="bg-white border-b border-slate-200 sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="flex justify-between h-16">
+              <div className="flex justify-between h-14">
                 <div className="flex items-center gap-3">
-                  <span className="text-2xl">🏥</span>
+                  <div className="w-8 h-8 bg-teal-600 rounded-lg flex items-center justify-center">
+                    <span className="text-white font-bold text-sm">G</span>
+                  </div>
                   <div>
-                    <h1 className="text-xl font-bold text-gray-900">GIGA Dashboard</h1>
-                    <p className="text-xs text-cyan-600 -mt-1">Prevaler — Directorio Médico</p>
+                    <h1 className="text-lg font-semibold text-slate-900 leading-tight">GIGA</h1>
+                    <p className="text-[11px] text-slate-400 -mt-0.5 font-medium tracking-wide">PREVALER · DIRECTORIO MÉDICO</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
-                  <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                  <span className="text-sm text-gray-500">En línea</span>
+                  <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
+                  <span className="text-xs text-slate-400 font-medium">En línea</span>
                 </div>
               </div>
             </div>
           </nav>
-          <main className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+          <main className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
             {children}
           </main>
-          <footer className="text-center text-sm text-gray-400 py-6 border-t border-gray-100">
-            Sistema GIGA v3.0 — Directorio médico conectado a base de datos en tiempo real
+          <footer className="text-center text-xs text-slate-300 py-6 border-t border-slate-100">
+            GIGA v3.0 · Directorio médico en tiempo real
           </footer>
         </div>
       </body>

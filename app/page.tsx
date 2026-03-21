@@ -6,20 +6,14 @@ import { useEffect, useState, useMemo } from 'react'
 import { getAllRecords, MedicalRecord, getMedicos, getHorarios, Medico, Horario } from '../lib/supabase'
 import DoctorCalendar from './components/DoctorCalendar'
 
-const SEDE_ICONS: Record<string, string> = {
-  'SEDE NORTE': '🏥', 'SEDE SUR': '🏨', 'SEDE ESTE': '🏩',
-  'SEDE VIÑA': '🍇', 'SEDE PUERTO CABELLO': '⚓',
-  'SEDE MARACAY': '🌿', 'SEDE PORLAMAR': '🏝️',
-}
-
-const CITY_MAP: Record<string, { city: string; icon: string }> = {
-  'SEDE NORTE': { city: 'Carabobo', icon: '🏙️' },
-  'SEDE SUR': { city: 'Carabobo', icon: '🏙️' },
-  'SEDE ESTE': { city: 'Carabobo', icon: '🏙️' },
-  'SEDE VIÑA': { city: 'Carabobo', icon: '🏙️' },
-  'SEDE PUERTO CABELLO': { city: 'Carabobo', icon: '🏙️' },
-  'SEDE MARACAY': { city: 'Aragua', icon: '🌿' },
-  'SEDE PORLAMAR': { city: 'Nueva Esparta', icon: '🏝️' },
+const CITY_MAP: Record<string, { city: string }> = {
+  'SEDE NORTE': { city: 'Carabobo' },
+  'SEDE SUR': { city: 'Carabobo' },
+  'SEDE ESTE': { city: 'Carabobo' },
+  'SEDE VIÑA': { city: 'Carabobo' },
+  'SEDE PUERTO CABELLO': { city: 'Carabobo' },
+  'SEDE MARACAY': { city: 'Aragua' },
+  'SEDE PORLAMAR': { city: 'Nueva Esparta' },
 }
 
 const CITY_ORDER = ['Carabobo', 'Aragua', 'Nueva Esparta']
@@ -80,76 +74,96 @@ export default function Home() {
   if (loading) return (
     <div className="flex items-center justify-center min-h-[60vh]">
       <div className="text-center">
-        <div className="w-12 h-12 border-4 border-cyan-200 border-t-cyan-600 rounded-full animate-spin mx-auto mb-4"></div>
-        <p className="text-gray-500">Cargando directorio médico...</p>
+        <div className="w-10 h-10 border-2 border-slate-200 border-t-teal-600 rounded-full animate-spin mx-auto mb-4"></div>
+        <p className="text-sm text-slate-400">Cargando directorio...</p>
       </div>
     </div>
   )
 
-  if (error) return <div className="bg-red-50 border border-red-200 rounded-xl p-6 text-center"><p className="text-red-600">Error: {error}</p></div>
+  if (error) return <div className="bg-red-50 border border-red-200 rounded-lg p-6 text-center"><p className="text-red-600 text-sm">Error: {error}</p></div>
 
   const clearAll = () => { setSearch(''); setSelectedSede(null); setSelectedEsp(null) }
 
   return (
-    <div className="space-y-8">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div className="space-y-6">
+      {/* Stats */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
         {[
-          { label: 'Total Médicos', value: new Set(records.map(r => r.medico)).size, c: 'bg-cyan-50 border-cyan-200 text-cyan-900' },
-          { label: 'Especialidades', value: new Set(records.map(r => r.especialidad)).size, c: 'bg-blue-50 border-blue-200 text-blue-900' },
-          { label: 'Sedes', value: sedes.length, c: 'bg-teal-50 border-teal-200 text-teal-900' },
-          { label: 'Registros', value: records.length, c: 'bg-indigo-50 border-indigo-200 text-indigo-900' },
+          { label: 'Médicos', value: new Set(records.map(r => r.medico)).size, accent: 'border-teal-500' },
+          { label: 'Especialidades', value: new Set(records.map(r => r.especialidad)).size, accent: 'border-blue-500' },
+          { label: 'Sedes', value: sedes.length, accent: 'border-slate-400' },
+          { label: 'Registros', value: records.length, accent: 'border-slate-300' },
         ].map(s => (
-          <div key={s.label} className={`rounded-xl border-l-4 p-4 ${s.c}`}>
-            <p className="text-sm font-medium opacity-75">{s.label}</p>
-            <p className="text-3xl font-bold">{s.value}</p>
+          <div key={s.label} className={`bg-white rounded-lg border-l-2 ${s.accent} px-4 py-3 shadow-sm`}>
+            <p className="text-[11px] font-medium text-slate-400 uppercase tracking-wider">{s.label}</p>
+            <p className="text-2xl font-semibold text-slate-800 mt-0.5">{s.value}</p>
           </div>
         ))}
       </div>
 
+      {/* Search */}
       <div className="relative max-w-xl mx-auto">
+        <svg className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
         <input type="text" value={search} onChange={e => setSearch(e.target.value)}
-          placeholder="🔍  Buscar médico, especialidad o sede..."
-          className="w-full px-5 py-3 rounded-xl border border-cyan-200 bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent text-gray-700 placeholder-gray-400" />
+          placeholder="Buscar médico, especialidad o sede..."
+          className="w-full pl-10 pr-20 py-2.5 rounded-lg border border-slate-200 bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-400 text-sm text-slate-700 placeholder-slate-300" />
         {(search || selectedSede || selectedEsp) && (
-          <button onClick={clearAll} className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-red-500 text-sm font-medium">✕ Limpiar</button>
+          <button onClick={clearAll} className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-slate-400 hover:text-red-500 font-medium">Limpiar</button>
         )}
       </div>
 
+      {/* Active filters */}
       {(selectedSede || selectedEsp) && (
         <div className="flex flex-wrap gap-2 justify-center">
-          {selectedSede && <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-cyan-100 text-cyan-800 text-sm font-medium">📍 {selectedSede} <button onClick={() => setSelectedSede(null)} className="ml-1 hover:text-red-600">✕</button></span>}
-          {selectedEsp && <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-sm font-medium">🩺 {selectedEsp} <button onClick={() => setSelectedEsp(null)} className="ml-1 hover:text-red-600">✕</button></span>}
+          {selectedSede && (
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-teal-50 text-teal-700 text-xs font-medium border border-teal-200">
+              {selectedSede.replace('SEDE ', '')}
+              <button onClick={() => setSelectedSede(null)} className="ml-0.5 hover:text-red-600">&times;</button>
+            </span>
+          )}
+          {selectedEsp && (
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-medium border border-blue-200">
+              {selectedEsp}
+              <button onClick={() => setSelectedEsp(null)} className="ml-0.5 hover:text-red-600">&times;</button>
+            </span>
+          )}
         </div>
       )}
 
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-        <div className="lg:col-span-1 space-y-6">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+        {/* Sidebar */}
+        <div className="lg:col-span-1 space-y-5">
+          {/* Sedes */}
           <div>
-            <h2 className="text-lg font-bold text-gray-800 mb-3">📍 Sedes</h2>
-            <div className="space-y-3">
+            <h2 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2.5">Sedes</h2>
+            <div className="space-y-2.5">
               {CITY_ORDER.map(city => {
                 const citySedes = sedes.filter(s => CITY_MAP[s.name]?.city === city)
                 if (citySedes.length === 0) return null
-                const cityIcon = CITY_MAP[citySedes[0].name]?.icon || '📍'
                 const totalDocs = citySedes.reduce((a, s) => a + s.dc, 0)
                 return (
-                  <div key={city} className="rounded-xl border border-gray-200 bg-gray-50/50 overflow-hidden">
-                    <div className="px-3 py-2 bg-gradient-to-r from-gray-100 to-gray-50 border-b border-gray-200">
+                  <div key={city} className="rounded-lg border border-slate-200 bg-white overflow-hidden">
+                    <div className="px-3 py-2 bg-slate-50 border-b border-slate-100">
                       <div className="flex items-center justify-between">
-                        <span className="font-bold text-sm text-gray-700">{cityIcon} {city}</span>
-                        <span className="text-xs text-gray-400">{totalDocs} 👨‍⚕️</span>
+                        <span className="font-semibold text-xs text-slate-600">{city}</span>
+                        <span className="text-[10px] text-slate-400">{totalDocs} médicos</span>
                       </div>
                     </div>
-                    <div className="p-1.5 space-y-1">
+                    <div className="p-1.5 space-y-0.5">
                       {citySedes.map(sede => (
                         <button key={sede.name} onClick={() => { setSelectedSede(selectedSede === sede.name ? null : sede.name); setSelectedEsp(null) }}
-                          className={`w-full text-left p-2.5 rounded-lg border transition-all ${selectedSede === sede.name ? 'bg-cyan-600 text-white border-cyan-600 shadow-lg shadow-cyan-200' : 'bg-white border-gray-100 hover:border-cyan-300 hover:shadow-md'}`}>
+                          className={`w-full text-left px-2.5 py-2 rounded-md text-xs transition-all ${
+                            selectedSede === sede.name
+                              ? 'bg-teal-600 text-white'
+                              : 'hover:bg-slate-50 text-slate-600'
+                          }`}>
                           <div className="flex items-center justify-between">
-                            <div className="flex items-center gap-2">
-                              <span className="text-sm">{SEDE_ICONS[sede.name] || '📍'}</span>
-                              <span className="font-semibold text-xs">{sede.name.replace('SEDE ', '')}</span>
-                            </div>
-                            <div className={`text-xs ${selectedSede === sede.name ? 'text-cyan-100' : 'text-gray-400'}`}>{sede.dc}👨‍⚕️ · {sede.sc}🩺</div>
+                            <span className="font-medium">{sede.name.replace('SEDE ', '')}</span>
+                            <span className={`text-[10px] ${selectedSede === sede.name ? 'text-teal-200' : 'text-slate-400'}`}>
+                              {sede.dc} · {sede.sc}
+                            </span>
                           </div>
                         </button>
                       ))}
@@ -159,15 +173,19 @@ export default function Home() {
               })}
             </div>
           </div>
+
+          {/* Especialidades */}
           <div>
-            <h2 className="text-lg font-bold text-gray-800 mb-3">🩺 Especialidades</h2>
-            <div className="space-y-1 max-h-96 overflow-y-auto pr-1">
+            <h2 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2.5">Especialidades</h2>
+            <div className="space-y-0.5 max-h-80 overflow-y-auto">
               {especialidades.map(esp => (
                 <button key={esp.name} onClick={() => setSelectedEsp(selectedEsp === esp.name ? null : esp.name)}
-                  className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-all ${selectedEsp === esp.name ? 'bg-blue-600 text-white shadow-md' : 'hover:bg-blue-50 text-gray-700'}`}>
+                  className={`w-full text-left px-3 py-1.5 rounded-md text-xs transition-all ${
+                    selectedEsp === esp.name ? 'bg-blue-600 text-white' : 'hover:bg-slate-50 text-slate-600'
+                  }`}>
                   <div className="flex justify-between items-center">
                     <span className="truncate">{esp.name}</span>
-                    <span className={`text-xs font-medium ml-2 ${selectedEsp === esp.name ? 'text-blue-100' : 'text-gray-400'}`}>{esp.count}</span>
+                    <span className={`text-[10px] font-medium ml-2 ${selectedEsp === esp.name ? 'text-blue-200' : 'text-slate-400'}`}>{esp.count}</span>
                   </div>
                 </button>
               ))}
@@ -175,16 +193,26 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="lg:col-span-3 space-y-6">
-          <h2 className="text-lg font-bold text-gray-800">👨‍⚕️ Directorio ({filtered.length} registros)</h2>
+        {/* Main content */}
+        <div className="lg:col-span-3 space-y-4">
+          <div className="flex items-center justify-between">
+            <h2 className="text-sm font-semibold text-slate-600">Directorio</h2>
+            <span className="text-xs text-slate-400">{filtered.length} registros</span>
+          </div>
+
           {grouped.length === 0 ? (
-            <div className="bg-white rounded-xl border border-gray-100 p-12 text-center"><p className="text-gray-400 text-lg">No se encontraron resultados</p></div>
+            <div className="bg-white rounded-lg border border-slate-200 p-12 text-center">
+              <p className="text-sm text-slate-400">No se encontraron resultados</p>
+            </div>
           ) : grouped.map(([esp, docs]) => (
-            <div key={esp} className="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden">
-              <div className="bg-gradient-to-r from-cyan-600 to-blue-600 px-5 py-3">
-                <h3 className="text-white font-bold flex items-center gap-2">🩺 {esp} <span className="text-cyan-100 text-sm font-normal">({docs.length})</span></h3>
+            <div key={esp} className="bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden">
+              <div className="bg-slate-800 px-4 py-2.5">
+                <h3 className="text-white text-sm font-medium flex items-center justify-between">
+                  {esp}
+                  <span className="text-slate-400 text-xs font-normal">{docs.length}</span>
+                </h3>
               </div>
-              <div className="divide-y divide-gray-50">
+              <div className="divide-y divide-slate-50">
                 {docs.map(doc => {
                   const matchedMedico = medicos.find(m => m.nombre === doc.medico)
                   return (
@@ -195,15 +223,16 @@ export default function Home() {
                           setSelectedDoctor({ medico: matchedMedico, horarios: docHorarios })
                         }
                       }}
-                      className={`px-5 py-3 transition-colors ${matchedMedico ? 'hover:bg-cyan-50/50 cursor-pointer group' : 'hover:bg-gray-50'}`}>
+                      className={`px-4 py-3 transition-colors ${matchedMedico ? 'hover:bg-teal-50/50 cursor-pointer group' : 'hover:bg-slate-50/50'}`}>
                       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
                         <div>
-                          <p className="font-semibold text-gray-800">👨‍⚕️ {doc.medico}
-                            {matchedMedico && <span className="ml-2 text-xs text-cyan-500 opacity-0 group-hover:opacity-100 transition-opacity">📅 Ver calendario</span>}
+                          <p className="text-sm font-medium text-slate-800">
+                            {doc.medico}
+                            {matchedMedico && <span className="ml-2 text-[10px] text-teal-500 opacity-0 group-hover:opacity-100 transition-opacity font-medium">Ver horario</span>}
                           </p>
-                          <p className="text-sm text-gray-500">📍 {doc.sede}</p>
+                          <p className="text-xs text-slate-400">{doc.sede.replace('SEDE ', '')}</p>
                         </div>
-                        <div className="text-sm text-gray-600 bg-gray-50 px-3 py-1 rounded-lg">🕐 {doc.horario || 'Sin horario'}</div>
+                        <div className="text-xs text-slate-500 bg-slate-50 px-2.5 py-1 rounded">{doc.horario || 'Sin horario'}</div>
                       </div>
                     </div>
                   )

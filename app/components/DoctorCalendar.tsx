@@ -6,13 +6,13 @@ const DAYS = ['', 'LUN', 'MAR', 'MIÉ', 'JUE', 'VIE', 'SÁB', 'DOM']
 const DAYS_FULL = ['', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']
 
 const SEDE_COLORS: Record<string, { bg: string; border: string; text: string }> = {
-  'SEDE NORTE': { bg: 'bg-blue-100', border: 'border-blue-400', text: 'text-blue-800' },
-  'SEDE SUR': { bg: 'bg-emerald-100', border: 'border-emerald-400', text: 'text-emerald-800' },
-  'SEDE ESTE': { bg: 'bg-amber-100', border: 'border-amber-400', text: 'text-amber-800' },
-  'SEDE VIÑA': { bg: 'bg-purple-100', border: 'border-purple-400', text: 'text-purple-800' },
-  'SEDE PUERTO CABELLO': { bg: 'bg-cyan-100', border: 'border-cyan-400', text: 'text-cyan-800' },
-  'SEDE MARACAY': { bg: 'bg-rose-100', border: 'border-rose-400', text: 'text-rose-800' },
-  'SEDE PORLAMAR': { bg: 'bg-orange-100', border: 'border-orange-400', text: 'text-orange-800' },
+  'SEDE NORTE': { bg: 'bg-blue-50', border: 'border-blue-400', text: 'text-blue-700' },
+  'SEDE SUR': { bg: 'bg-emerald-50', border: 'border-emerald-400', text: 'text-emerald-700' },
+  'SEDE ESTE': { bg: 'bg-amber-50', border: 'border-amber-400', text: 'text-amber-700' },
+  'SEDE VIÑA': { bg: 'bg-purple-50', border: 'border-purple-400', text: 'text-purple-700' },
+  'SEDE PUERTO CABELLO': { bg: 'bg-sky-50', border: 'border-sky-400', text: 'text-sky-700' },
+  'SEDE MARACAY': { bg: 'bg-rose-50', border: 'border-rose-400', text: 'text-rose-700' },
+  'SEDE PORLAMAR': { bg: 'bg-orange-50', border: 'border-orange-400', text: 'text-orange-700' },
 }
 
 function timeToMinutes(t: string | null): number {
@@ -37,43 +37,40 @@ interface Props {
 }
 
 export default function DoctorCalendar({ nombre, especialidades, horarios, onClose }: Props) {
-  // Find time range
   const allTimes = horarios.filter(h => h.hora_inicio && h.hora_fin)
   const minHour = allTimes.length > 0 ? Math.min(...allTimes.map(h => Math.floor(timeToMinutes(h.hora_inicio) / 60))) : 7
   const maxHour = allTimes.length > 0 ? Math.max(...allTimes.map(h => Math.ceil(timeToMinutes(h.hora_fin) / 60))) : 18
   const startHour = Math.max(6, minHour - 1)
   const endHour = Math.min(22, maxHour + 1)
   const hours = Array.from({ length: endHour - startHour }, (_, i) => startHour + i)
-  
-  // Which days have blocks
+
   const activeDays = Array.from(new Set(horarios.map(h => h.dia_semana))).sort()
   const displayDays = activeDays.length > 0 ? activeDays : [1, 2, 3, 4, 5]
 
-  // Unique sedes for legend
   const sedes = Array.from(new Set(horarios.map(h => h.sede)))
 
   return (
-    <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4" onClick={onClose}>
-      <div className="bg-white rounded-2xl shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-hidden" onClick={e => e.stopPropagation()}>
+    <div className="fixed inset-0 bg-black/40 z-50 flex items-center justify-center p-4" onClick={onClose}>
+      <div className="bg-white rounded-xl shadow-xl max-w-4xl w-full max-h-[90vh] overflow-hidden" onClick={e => e.stopPropagation()}>
         {/* Header */}
-        <div className="bg-gradient-to-r from-cyan-600 to-blue-600 px-6 py-4 text-white">
+        <div className="bg-slate-800 px-6 py-4 text-white">
           <div className="flex items-center justify-between">
             <div>
-              <h2 className="text-xl font-bold">👨‍⚕️ {nombre}</h2>
-              <p className="text-cyan-100 text-sm mt-1">{especialidades.join(' · ')}</p>
+              <h2 className="text-lg font-semibold">{nombre}</h2>
+              <p className="text-slate-400 text-sm mt-0.5">{especialidades.join(' · ')}</p>
             </div>
-            <button onClick={onClose} className="w-8 h-8 rounded-full bg-white/20 hover:bg-white/30 flex items-center justify-center text-lg">✕</button>
+            <button onClick={onClose} className="w-7 h-7 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-sm transition-colors">&times;</button>
           </div>
         </div>
 
         {/* Sede legend */}
         {sedes.length > 1 && (
-          <div className="px-6 py-2 bg-gray-50 border-b flex flex-wrap gap-2">
+          <div className="px-6 py-2 bg-slate-50 border-b border-slate-100 flex flex-wrap gap-2">
             {sedes.map(sede => {
-              const c = SEDE_COLORS[sede] || { bg: 'bg-gray-100', border: 'border-gray-400', text: 'text-gray-800' }
+              const c = SEDE_COLORS[sede] || { bg: 'bg-slate-50', border: 'border-slate-400', text: 'text-slate-700' }
               return (
-                <span key={sede} className={`text-xs px-2 py-1 rounded-full ${c.bg} ${c.text} font-medium`}>
-                  📍 {sede.replace('SEDE ', '')}
+                <span key={sede} className={`text-[10px] px-2 py-0.5 rounded-full ${c.bg} ${c.text} font-medium border ${c.border}`}>
+                  {sede.replace('SEDE ', '')}
                 </span>
               )
             })}
@@ -84,27 +81,26 @@ export default function DoctorCalendar({ nombre, especialidades, horarios, onClo
         <div className="overflow-auto p-4" style={{ maxHeight: 'calc(90vh - 140px)' }}>
           <div className="min-w-[500px]">
             {/* Day headers */}
-            <div className="grid gap-px bg-gray-200 rounded-t-xl overflow-hidden" style={{ gridTemplateColumns: `60px repeat(${displayDays.length}, 1fr)` }}>
-              <div className="bg-gray-50 p-2"></div>
+            <div className="grid gap-px bg-slate-200 rounded-t-lg overflow-hidden" style={{ gridTemplateColumns: `60px repeat(${displayDays.length}, 1fr)` }}>
+              <div className="bg-slate-50 p-2"></div>
               {displayDays.map(d => (
-                <div key={d} className="bg-gray-50 p-2 text-center">
-                  <div className="font-bold text-sm text-gray-700">{DAYS[d]}</div>
-                  <div className="text-xs text-gray-400">{DAYS_FULL[d]}</div>
+                <div key={d} className="bg-slate-50 p-2 text-center">
+                  <div className="font-semibold text-xs text-slate-600">{DAYS[d]}</div>
+                  <div className="text-[10px] text-slate-400">{DAYS_FULL[d]}</div>
                 </div>
               ))}
             </div>
 
             {/* Time grid */}
-            <div className="relative grid gap-px bg-gray-100 rounded-b-xl overflow-hidden" style={{ gridTemplateColumns: `60px repeat(${displayDays.length}, 1fr)` }}>
+            <div className="relative grid gap-px bg-slate-100 rounded-b-lg overflow-hidden" style={{ gridTemplateColumns: `60px repeat(${displayDays.length}, 1fr)` }}>
               {hours.map(hour => (
                 <>
-                  <div key={`label-${hour}`} className="bg-white p-1 text-right pr-2 border-b border-gray-100" style={{ height: '48px' }}>
-                    <span className="text-xs text-gray-400">
+                  <div key={`label-${hour}`} className="bg-white p-1 text-right pr-2 border-b border-slate-50" style={{ height: '48px' }}>
+                    <span className="text-[10px] text-slate-400 font-medium">
                       {hour > 12 ? hour - 12 : hour} {hour >= 12 ? 'PM' : 'AM'}
                     </span>
                   </div>
                   {displayDays.map(day => {
-                    // Find blocks that overlap this hour for this day
                     const dayBlocks = horarios.filter(h => h.dia_semana === day && h.hora_inicio && h.hora_fin)
                     const blockHere = dayBlocks.find(h => {
                       const start = timeToMinutes(h.hora_inicio)
@@ -118,27 +114,26 @@ export default function DoctorCalendar({ nombre, especialidades, horarios, onClo
                       const startMin = timeToMinutes(blockHere.hora_inicio)
                       const endMin = timeToMinutes(blockHere.hora_fin)
                       const durationHours = (endMin - startMin) / 60
-                      const c = SEDE_COLORS[blockHere.sede] || { bg: 'bg-gray-100', border: 'border-gray-400', text: 'text-gray-800' }
+                      const c = SEDE_COLORS[blockHere.sede] || { bg: 'bg-slate-50', border: 'border-slate-400', text: 'text-slate-700' }
                       const topOffset = ((startMin % 60) / 60) * 48
 
                       return (
-                        <div key={`${day}-${hour}`} className="bg-white border-b border-gray-50 relative" style={{ height: '48px' }}>
+                        <div key={`${day}-${hour}`} className="bg-white border-b border-slate-50 relative" style={{ height: '48px' }}>
                           <div
-                            className={`absolute left-1 right-1 ${c.bg} ${c.text} border-l-4 ${c.border} rounded-md px-2 py-1 z-10 overflow-hidden`}
+                            className={`absolute left-1 right-1 ${c.bg} ${c.text} border-l-2 ${c.border} rounded px-2 py-1 z-10 overflow-hidden`}
                             style={{ top: `${topOffset}px`, height: `${Math.max(durationHours * 48 - 2, 20)}px` }}
                           >
-                            <p className="text-xs font-bold truncate">{blockHere.sede.replace('SEDE ', '')}</p>
-                            <p className="text-[10px] opacity-75 truncate">{formatTime(blockHere.hora_inicio)} - {formatTime(blockHere.hora_fin)}</p>
-                            {durationHours > 1.5 && <p className="text-[10px] opacity-60 truncate">{blockHere.especialidad}</p>}
+                            <p className="text-[10px] font-semibold truncate">{blockHere.sede.replace('SEDE ', '')}</p>
+                            <p className="text-[9px] opacity-75 truncate">{formatTime(blockHere.hora_inicio)} – {formatTime(blockHere.hora_fin)}</p>
+                            {durationHours > 1.5 && <p className="text-[9px] opacity-60 truncate">{blockHere.especialidad}</p>}
                           </div>
                         </div>
                       )
                     } else if (blockHere) {
-                      // Continuation of a block - empty cell
-                      return <div key={`${day}-${hour}`} className="bg-white border-b border-gray-50" style={{ height: '48px' }}></div>
+                      return <div key={`${day}-${hour}`} className="bg-white border-b border-slate-50" style={{ height: '48px' }}></div>
                     }
 
-                    return <div key={`${day}-${hour}`} className="bg-white border-b border-gray-50" style={{ height: '48px' }}></div>
+                    return <div key={`${day}-${hour}`} className="bg-white border-b border-slate-50" style={{ height: '48px' }}></div>
                   })}
                 </>
               ))}
@@ -146,10 +141,10 @@ export default function DoctorCalendar({ nombre, especialidades, horarios, onClo
           </div>
         </div>
 
-        {/* Summary footer */}
-        <div className="px-6 py-3 bg-gray-50 border-t text-xs text-gray-400 flex justify-between">
-          <span>{horarios.length} bloques de horario en {sedes.length} sede{sedes.length > 1 ? 's' : ''}</span>
-          <span>Calendario semanal recurrente</span>
+        {/* Footer */}
+        <div className="px-6 py-2.5 bg-slate-50 border-t border-slate-100 text-[10px] text-slate-400 flex justify-between font-medium">
+          <span>{horarios.length} bloques · {sedes.length} sede{sedes.length > 1 ? 's' : ''}</span>
+          <span>Calendario semanal</span>
         </div>
       </div>
     </div>
