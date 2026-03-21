@@ -5,6 +5,8 @@ export const dynamic = 'force-dynamic'
 import { useEffect, useState, useMemo } from 'react'
 import { getAllRecords, MedicalRecord, getMedicos, getHorarios, Medico, Horario } from '../lib/supabase'
 import DoctorCalendar from './components/DoctorCalendar'
+import TodayAppointments from './components/TodayAppointments'
+import AppointmentForm from './components/AppointmentForm'
 
 const CITY_MAP: Record<string, { city: string }> = {
   'SEDE NORTE': { city: 'Carabobo' },
@@ -28,6 +30,8 @@ export default function Home() {
   const [medicos, setMedicos] = useState<Medico[]>([])
   const [allHorarios, setAllHorarios] = useState<Horario[]>([])
   const [selectedDoctor, setSelectedDoctor] = useState<{ medico: Medico; horarios: Horario[] } | null>(null)
+  const [showAppointmentForm, setShowAppointmentForm] = useState(false)
+  const [refreshTrigger, setRefreshTrigger] = useState(0)
 
   useEffect(() => {
     Promise.all([getAllRecords(), getMedicos(), getHorarios()])
@@ -84,8 +88,33 @@ export default function Home() {
 
   const clearAll = () => { setSearch(''); setSelectedSede(null); setSelectedEsp(null) }
 
+  const handleAppointmentSuccess = () => {
+    setRefreshTrigger(prev => prev + 1)
+  }
+
   return (
     <div className="space-y-6">
+      {/* Today's Appointments and New Appointment Button */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="lg:col-span-2">
+          <TodayAppointments refreshTrigger={refreshTrigger} />
+        </div>
+        <div className="lg:col-span-1">
+          <div className="bg-white rounded-lg border border-slate-200 shadow-sm p-6">
+            <h3 className="text-sm font-semibold text-slate-700 mb-4">Gestión de Citas</h3>
+            <button
+              onClick={() => setShowAppointmentForm(true)}
+              className="w-full px-4 py-3 bg-teal-600 text-white rounded-md hover:bg-teal-700 transition-colors text-sm font-medium"
+            >
+              Nueva Cita
+            </button>
+            <p className="text-xs text-slate-500 mt-2 text-center">
+              Programa una nueva cita médica
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
         {[
@@ -251,6 +280,12 @@ export default function Home() {
           onClose={() => setSelectedDoctor(null)}
         />
       )}
+
+      <AppointmentForm
+        isOpen={showAppointmentForm}
+        onClose={() => setShowAppointmentForm(false)}
+        onSuccess={handleAppointmentSuccess}
+      />
     </div>
   )
 }
